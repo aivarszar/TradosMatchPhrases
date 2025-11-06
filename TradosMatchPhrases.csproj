@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>TradosMatchPhrases</AssemblyName>
+    <RootNamespace>TradosMatchPhrases</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PluginName>TradosMatchPhrases</PluginName>
+    <Authors>Aivarszar</Authors>
+    <Company>Aivarszar</Company>
+    <Description>Trados Studio plugin for highlighting matching phrases between source and target text with different colors</Description>
+    <Version>1.0.0</Version>
+    <Copyright>Copyright © 2025</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Trados Studio API References -->
+    <!-- Note: These paths need to be adjusted based on your Trados Studio installation -->
+    <!-- For Trados Studio 2022 (Studio17), use these paths: -->
+    <Reference Include="Sdl.Desktop.IntegrationApi">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.Desktop.IntegrationApi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.Desktop.IntegrationApi.Extensions">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.Desktop.IntegrationApi.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.TranslationStudioAutomation.IntegrationApi">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.TranslationStudioAutomation.IntegrationApi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.FileTypeSupport.Framework.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Implementation">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.FileTypeSupport.Framework.Implementation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.Core.PluginFramework">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.Core.PluginFramework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.ProjectAutomation.Core">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.ProjectAutomation.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.ProjectAutomation.FileBased">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.ProjectAutomation.FileBased.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.LanguagePlatform.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.TranslationMemory">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.LanguagePlatform.TranslationMemory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.TranslationMemoryApi">
+      <HintPath>C:\Program Files (x86)\Trados\Trados Studio\Studio18\Sdl.LanguagePlatform.TranslationMemoryApi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
