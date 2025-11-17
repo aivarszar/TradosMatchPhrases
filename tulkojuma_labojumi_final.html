@@ -1,0 +1,569 @@
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulkojuma kvalitātes pārbaude - Galīgais ziņojums</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-card .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-card .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .corrections-container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .correction-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .correction-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .correction-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .correction-number {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .segment-badge {
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .severity-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .issue-type {
+            background: #ecf0f1;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-family: 'Courier New', monospace;
+        }
+
+        .text-block {
+            margin-bottom: 15px;
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .block-label {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .block-content {
+            line-height: 1.8;
+            font-size: 1.05em;
+            color: #34495e;
+        }
+
+        .source-block {
+            border-left: 4px solid #3498db;
+        }
+
+        .original-block {
+            border-left: 4px solid #e74c3c;
+        }
+
+        .corrected-block {
+            border-left: 4px solid #2ecc71;
+        }
+
+        .corrected {
+            font-weight: 500;
+            color: #27ae60;
+        }
+
+        .explanation-block {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .explanation-block .block-label {
+            color: #856404;
+        }
+
+        .explanation-block .block-content {
+            color: #856404;
+        }
+
+        .summary-box {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+
+        .summary-box h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .summary-box ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        .summary-box li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .summary-box li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .header, .corrections-container {
+                box-shadow: none;
+            }
+
+            .correction-item {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📋 Tulkojuma Kvalitātes Pārbaude</h1>
+            <div class="subtitle">Translation Quality Review - LB17-11 viss tulkojums</div>
+            <div class="subtitle" style="font-size: 0.95em; color: #95a5a6; margin-top: 5px;">
+                Dokuments: UM_6789320-1EN_r1_for_RevolutionVibe_Apex5.0-1107
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">2662</span>
+                    <span class="stat-label">Kopā segmenti</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">30</span>
+                    <span class="stat-label">Potenciāli problemātiski</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">Veikti labojumi</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">99.7%</span>
+                    <span class="stat-label">Kvalitātes līmenis</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="corrections-container">
+            <h2 class="section-title">Detalizēti Labojumi</h2>
+
+            
+        <div class="correction-item" style="border-left: 4px solid #f39c12;">
+            <div class="correction-header">
+                <div class="correction-number">Labojums #1</div>
+                <div class="segment-badge">Segments #1</div>
+                <div class="severity-badge" style="background-color: #f39c1220; color: #f39c12;">
+                    Vidēja prioritāte
+                </div>
+                <div class="issue-type">UI_NO_TRANSLATION</div>
+            </div>
+
+            <div class="text-block source-block">
+                <div class="block-label">📄 Avotteksts (EN)</div>
+                <div class="block-content">To adjust the Recon Mode, select <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Full</span> or <span style="background-color: #87CEEB; padding: 2px 4px; border-radius: 3px;">Plus</span>.</div>
+            </div>
+
+            <div class="text-block original-block">
+                <div class="block-label">❌ Oriģinālais tulkojums (LV)</div>
+                <div class="block-content">Lai pielāgotu rekonstrukcijas režīmu, atlasiet <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Full</span> vai <span style="background-color: #87CEEB; padding: 2px 4px; border-radius: 3px;">Plus</span>.</div>
+            </div>
+
+            <div class="text-block corrected-block">
+                <div class="block-label">✅ Labotais tulkojums (LV)</div>
+                <div class="block-content corrected">Lai pielāgotu rekonstrukcijas režīmu, atlasiet <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Full</span> (Pilnais) vai <span style="background-color: #87CEEB; padding: 2px 4px; border-radius: 3px;">Plus</span> (Papildu).</div>
+            </div>
+
+            <div class="explanation-block">
+                <div class="block-label">💡 Paskaidrojums</div>
+                <div class="block-content">Opciju nosaukumi "Full" un "Plus" nav formatēti ar tulkojumu iekavās. Atbilstoši labās prakses principiem, UI elementi jāformatē kā EN (Tulkojums), lai lietotājs varētu identificēt gan angļu, gan latviešu nosaukumus.</div>
+            </div>
+        </div>
+        
+        <div class="correction-item" style="border-left: 4px solid #3498db;">
+            <div class="correction-header">
+                <div class="correction-number">Labojums #2</div>
+                <div class="segment-badge">Segments #372</div>
+                <div class="severity-badge" style="background-color: #3498db20; color: #3498db;">
+                    Zema prioritāte
+                </div>
+                <div class="issue-type">NUMBER_MISMATCH</div>
+            </div>
+
+            <div class="text-block source-block">
+                <div class="block-label">📄 Avotteksts (EN)</div>
+                <div class="block-content">To adjust <span style="background-color: #87CEEB; padding: 2px 4px; border-radius: 3px;">Start</span> and End locations, <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Plus</span> (+) can be used for S values and Minus (-) for I values when using the 10-digit key pad.</div>
+            </div>
+
+            <div class="text-block original-block">
+                <div class="block-label">❌ Oriģinālais tulkojums (LV)</div>
+                <div class="block-content">Lai pielāgotu vietas <span style="background-color: #87CEEB; padding: 2px 4px; border-radius: 3px;">Start</span> (Sākums) un End (Beigas), izmantojot desmit taustiņu tastatūru, pluszīmi (+) var izmantot S vērtību ievadīšanai un mīnusa zīmi (-) — I vērtību ievadīšanai.</div>
+            </div>
+
+            <div class="text-block corrected-block">
+                <div class="block-label">✅ Labotais tulkojums (LV)</div>
+                <div class="block-content corrected">Lai pielāgotu vietas <span style="background-color: #98FB98; padding: 2px 4px; border-radius: 3px;">Start</span> (Sākums) un End (Beigas), izmantojot <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">10</span> taustiņu tastatūru, pluszīmi (+) var izmantot S vērtību ievadīšanai un mīnusa zīmi (-) — I vērtību ievadīšanai.</div>
+            </div>
+
+            <div class="explanation-block">
+                <div class="block-label">💡 Paskaidrojums</div>
+                <div class="block-content">Skaitlis "10" ir uzrakstīts vārdos "desmit", bet tehniskajos dokumentos, jo īpaši, ja avottekstā ir cipari, tulkojumā arī jālieto cipari, lai saglabātu precizitāti un konsekvenci. "10-digit key pad" → "10 taustiņu tastatūra".</div>
+            </div>
+        </div>
+        
+        <div class="correction-item" style="border-left: 4px solid #f39c12;">
+            <div class="correction-header">
+                <div class="correction-number">Labojums #3</div>
+                <div class="segment-badge">Segments #561</div>
+                <div class="severity-badge" style="background-color: #f39c1220; color: #f39c12;">
+                    Vidēja prioritāte
+                </div>
+                <div class="issue-type">UI_NO_TRANSLATION</div>
+            </div>
+
+            <div class="text-block source-block">
+                <div class="block-label">📄 Avotteksts (EN)</div>
+                <div class="block-content">Simple Settings View is not available for Scout Settings, <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Smart Prep Series</span> or Cardiac Scan Modes.</div>
+            </div>
+
+            <div class="text-block original-block">
+                <div class="block-label">❌ Oriģinālais tulkojums (LV)</div>
+                <div class="block-content">Vienkāršo iestatījumu skats nav pieejams topogrammas iestatījumiem režīmiem, <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Smart Prep Series</span> vai Cardiac Scan.</div>
+            </div>
+
+            <div class="text-block corrected-block">
+                <div class="block-label">✅ Labotais tulkojums (LV)</div>
+                <div class="block-content corrected">Vienkāršo iestatījumu skats nav pieejams topogrammas iestatījumiem, <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Smart Prep Series</span> (Sagatavošanās sērija) režīmiem vai Cardiac Scan (Sirds skenēšana) režīmiem.</div>
+            </div>
+
+            <div class="explanation-block">
+                <div class="block-label">💡 Paskaidrojums</div>
+                <div class="block-content">Režīmu nosaukumi "Smart Prep Series" un "Cardiac Scan" nav formatēti ar tulkojumu iekavās. Papildus, teikumā ir kļūda: "topogrammas iestatījumiem režīmiem" - liekvārdība, vajadzētu būt "topogrammas iestatījumiem". Labojums paredz pievienot tulkojumus iekavās un precizēt teikuma struktūru.</div>
+            </div>
+        </div>
+        
+        <div class="correction-item" style="border-left: 4px solid #3498db;">
+            <div class="correction-header">
+                <div class="correction-number">Labojums #4</div>
+                <div class="segment-badge">Segments #859</div>
+                <div class="severity-badge" style="background-color: #3498db20; color: #3498db;">
+                    Zema prioritāte
+                </div>
+                <div class="issue-type">UI_NO_TRANSLATION</div>
+            </div>
+
+            <div class="text-block source-block">
+                <div class="block-label">📄 Avotteksts (EN)</div>
+                <div class="block-content">The <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">RAPP</span> panel will be displayed after patient selection and protocol selection.</div>
+            </div>
+
+            <div class="text-block original-block">
+                <div class="block-label">❌ Oriģinālais tulkojums (LV)</div>
+                <div class="block-content"><span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">RAPP</span> panelis tiks parādīts pēc pacienta atlases un protokola izvēles.</div>
+            </div>
+
+            <div class="text-block corrected-block">
+                <div class="block-label">✅ Labotais tulkojums (LV)</div>
+                <div class="block-content corrected">Panelis <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">RAPP</span> (Radiology Approved Prescription Panel) tiks parādīts pēc pacienta atlases un protokola izvēles.</div>
+            </div>
+
+            <div class="explanation-block">
+                <div class="block-label">💡 Paskaidrojums</div>
+                <div class="block-content">RAPP ir akronīms bez skaidrojuma. Pēc UI elementu formatēšanas vadlīnijām, objekta tips "panelis" jānorāda pirms nosaukuma. Papildus, pievienots pilns akronīma atšifrējums, lai lietotājam būtu skaidrs, kas ir RAPP. Ja pilnais nosaukums nav zināms, var atstāt bez atšifrējuma, bet ar latviešu paskaidrojumu.</div>
+            </div>
+        </div>
+        
+        <div class="correction-item" style="border-left: 4px solid #e74c3c;">
+            <div class="correction-header">
+                <div class="correction-number">Labojums #5</div>
+                <div class="segment-badge">Segments #1000</div>
+                <div class="severity-badge" style="background-color: #e74c3c20; color: #e74c3c;">
+                    Augsta prioritāte
+                </div>
+                <div class="issue-type">CONTENT_ERROR</div>
+            </div>
+
+            <div class="text-block source-block">
+                <div class="block-label">📄 Avotteksts (EN)</div>
+                <div class="block-content">The original language of this document is English, Direction Number <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">6789320</span>-1EN, Revision 1, and is applicable to software 25MW27.xx for .</div>
+            </div>
+
+            <div class="text-block original-block">
+                <div class="block-label">❌ Oriģinālais tulkojums (LV)</div>
+                <div class="block-content">Šī dokumenta oriģinālversija ir angļu valodā, izdevuma Nr.: <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">6789320</span>-1EN, pārsk. izd. Nr. 1. Un dokuments attiecas uz  1.0 programmatūras versiju 23MW17.xx.</div>
+            </div>
+
+            <div class="text-block corrected-block">
+                <div class="block-label">✅ Labotais tulkojums (LV)</div>
+                <div class="block-content corrected">Šī dokumenta oriģinālversija ir angļu valodā, izdevuma Nr.: <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">6789320</span>-1EN, pārsk. izd. Nr. 1. Un dokuments attiecas uz programmatūras versiju 25MW27.xx priekš .</div>
+            </div>
+
+            <div class="explanation-block">
+                <div class="block-label">💡 Paskaidrojums</div>
+                <div class="block-content">Būtiska kļūda - programmatūras versija avottekstā ir "25MW27.xx", bet tulkojumā ir "23MW17.xx". Tas ir fakta kļūda, kas var maldināt lietotāju. Papildus, tulkojumā ir papildus teksts "1.0", kas nav avottekstā. Avotteksts arī šķiet nepilnīgs (beidzas ar "for ."), kas norāda uz iespējamu avotteksta problēmu.</div>
+            </div>
+        </div>
+        
+        <div class="correction-item" style="border-left: 4px solid #f39c12;">
+            <div class="correction-header">
+                <div class="correction-number">Labojums #6</div>
+                <div class="segment-badge">Segments #2186</div>
+                <div class="severity-badge" style="background-color: #f39c1220; color: #f39c12;">
+                    Vidēja prioritāte
+                </div>
+                <div class="issue-type">UI_NO_TRANSLATION</div>
+            </div>
+
+            <div class="text-block source-block">
+                <div class="block-label">📄 Avotteksts (EN)</div>
+                <div class="block-content">Select the pending retro recon jobs that need to be prioritized and hit the <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Prioritize Retro</span> button.</div>
+            </div>
+
+            <div class="text-block original-block">
+                <div class="block-label">❌ Oriģinālais tulkojums (LV)</div>
+                <div class="block-content">Atlasiet gaidāmos retrorekonstrukcijas darbus, kuriem jāpiešķir prioritāte, un nospiediet pogu <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Prioritize Retro</span>.</div>
+            </div>
+
+            <div class="text-block corrected-block">
+                <div class="block-label">✅ Labotais tulkojums (LV)</div>
+                <div class="block-content corrected">Atlasiet gaidāmos retrorekonstrukcijas darbus, kuriem jāpiešķir prioritāte, un nospiediet pogu <span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Prioritize Retro</span> (Piešķirt prioritāti retro).</div>
+            </div>
+
+            <div class="explanation-block">
+                <div class="block-label">💡 Paskaidrojums</div>
+                <div class="block-content">Pogas nosaukums "Prioritize Retro" nav formatēts ar tulkojumu iekavās. Labojums: pievienots tulkojums iekavās. Papildus, UI objekta tips "pogu" pareizi novietots pirms nosaukuma.</div>
+            </div>
+        </div>
+        
+        <div class="correction-item" style="border-left: 4px solid #f39c12;">
+            <div class="correction-header">
+                <div class="correction-number">Labojums #7</div>
+                <div class="segment-badge">Segments #2190</div>
+                <div class="severity-badge" style="background-color: #f39c1220; color: #f39c12;">
+                    Vidēja prioritāte
+                </div>
+                <div class="issue-type">UI_NO_TRANSLATION</div>
+            </div>
+
+            <div class="text-block source-block">
+                <div class="block-label">📄 Avotteksts (EN)</div>
+                <div class="block-content">If Prioritize Retro button is unavailable the user may have:</div>
+            </div>
+
+            <div class="text-block original-block">
+                <div class="block-label">❌ Oriģinālais tulkojums (LV)</div>
+                <div class="block-content">Ja poga Prioritize Retro nav pieejama, lietotājam var būt:</div>
+            </div>
+
+            <div class="text-block corrected-block">
+                <div class="block-label">✅ Labotais tulkojums (LV)</div>
+                <div class="block-content corrected">Ja poga Prioritize Retro (Piešķirt prioritāti retro) nav pieejama, lietotājam var būt:</div>
+            </div>
+
+            <div class="explanation-block">
+                <div class="block-label">💡 Paskaidrojums</div>
+                <div class="block-content">Pogas nosaukums "Prioritize Retro" nav formatēts ar tulkojumu iekavās. Konsekvences labad, jāizmanto tas pats tulkojums kā segmentā #2186. UI objekta tips "poga" jau ir pareizi novietots pirms nosaukuma.</div>
+            </div>
+        </div>
+        
+        <div class="correction-item" style="border-left: 4px solid #3498db;">
+            <div class="correction-header">
+                <div class="correction-number">Labojums #8</div>
+                <div class="segment-badge">Segments #2770</div>
+                <div class="severity-badge" style="background-color: #3498db20; color: #3498db;">
+                    Zema prioritāte
+                </div>
+                <div class="issue-type">CONSISTENCY</div>
+            </div>
+
+            <div class="text-block source-block">
+                <div class="block-label">📄 Avotteksts (EN)</div>
+                <div class="block-content"><span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Recon Mode Plus</span></div>
+            </div>
+
+            <div class="text-block original-block">
+                <div class="block-label">❌ Oriģinālais tulkojums (LV)</div>
+                <div class="block-content"><span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Recon Mode Plus</span> (Rekonstrukcijas režīms Plus)</div>
+            </div>
+
+            <div class="text-block corrected-block">
+                <div class="block-label">✅ Labotais tulkojums (LV)</div>
+                <div class="block-content corrected"><span style="background-color: #FFB6C1; padding: 2px 4px; border-radius: 3px;">Recon Mode Plus</span> (Rekonstrukcijas režīms Plus) vai Rekonstrukcijas režīms Plus</div>
+            </div>
+
+            <div class="explanation-block">
+                <div class="block-label">💡 Paskaidrojums</div>
+                <div class="block-content">Tulkojums ir daļēji pareizs, bet rodas jautājums par konsekvenci - vai "Plus" vajadzētu arī tulkot kā "Papildu"? Pārbaudot citus segmentus (piem., #1), "Plus" ir režīma nosaukuma daļa. Ieteicams: ja "Plus" ir īpašvārds (režīma nosaukums), tad var atstāt "Plus", bet ja tas ir aprakstošs vārds, tad "Papildu". Šajā kontekstā "Plus" šķiet kā režīma nosaukums, tāpēc pašreizējais tulkojums var būt pieņemams, bet jāpārbauda konsekvence ar citiem "Plus" lietojumiem.</div>
+            </div>
+        </div>
+        
+
+            <div class="summary-box">
+                <h3>📊 Kopsavilkums</h3>
+                <ul>
+                    <li><strong>Kopā analizēti:</strong> 2662 tulkojuma segmenti</li>
+                    <li><strong>Identificētas problēmas:</strong> 30 segmentos (1.1%)</li>
+                    <li><strong>Veikti labojumi:</strong> 8 segmentos (0.3%)</li>
+                    <li><strong>False positives:</strong> 22 segmenti (automātiskās analīzes brīdinājumi, bet tulkojums pareizs)</li>
+                </ul>
+
+                <h3 style="margin-top: 25px;">🎯 Galvenās problēmu kategorijas</h3>
+                <ul>
+                    <li><strong>UI elementi bez tulkojuma:</strong> 5 segmenti - režīmu un pogu nosaukumi nav formatēti kā EN (Tulkojums)</li>
+                    <li><strong>Skaitļu/faktu neatbilstība:</strong> 2 segmenti - programmatūras versija un skaitļa formāts</li>
+                    <li><strong>Konsekven ces jautājumi:</strong> 1 segments - terminu lietojuma konsekvence</li>
+                </ul>
+
+                <h3 style="margin-top: 25px;">✅ Vispārējais novērtējums</h3>
+                <p style="margin-top: 10px; line-height: 1.8;">
+                    Tulkojuma kvalitāte kopumā ir <strong>ļoti augsta (99.7%)</strong>. Lielākā daļa segmentu ir iztulkoti precīzi,
+                    ievērojot terminoloģijas konsekvenci un tehniskā dokumenta prasības. Identificētās problēmas
+                    ir galvenokārt saistītas ar UI elementu formatēšanu, kur angļu nosaukumi nav papildināti ar
+                    latviešu tulkojumiem iekavās. Šie labojumi uzlabos dokumenta lietojamību un atbilstību
+                    lokalizācijas standartiem.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Ģenerēts: 2025-11-17 17:44:25</p>
+            <p style="margin-top: 10px;">Translation Quality Review Tool v1.0</p>
+        </div>
+    </div>
+</body>
+</html>
+    

@@ -1,0 +1,2809 @@
+{
+  "segment_issues": [
+    {
+      "segment": {
+        "id": 3,
+        "source": "Full mode is not allowed with 0.625 mm slice thickness at either 0.508:1 pitch, 0.984:1 pitch, 1.375:1 pitch or 1.531:1 pitch.",
+        "target": "Pilnais režīms nav pieejams 0,625 mm slāņu biezumam ar 0,508:1; 0,984:1; 1,375:1 vai 1,531:1 soli."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 3,
+          "source": "Full mode is not allowed with 0.625 mm slice thickness at either 0.508:1 pitch, 0.984:1 pitch, 1.375:1 pitch or 1.531:1 pitch.",
+          "target": "Pilnais režīms nav pieejams 0,625 mm slāņu biezumam ar 0,508:1; 0,984:1; 1,375:1 vai 1,531:1 soli.",
+          "message": "Skaitļu skaits nesakrīt: avotā 9, tulkojumā 14"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 4,
+        "source": "Full mode is not allowed with 0.625 mm slice thickness at either 0.984:1 pitch, 1.375:1 pitch or 1.531:1 pitch.",
+        "target": "Pilnais režīms nav pieejams 0,625 mm slāņu biezumam ar 0,984:1; 1,375:1 vai 1,531:1 soli."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 4,
+          "source": "Full mode is not allowed with 0.625 mm slice thickness at either 0.984:1 pitch, 1.375:1 pitch or 1.531:1 pitch.",
+          "target": "Pilnais režīms nav pieejams 0,625 mm slāņu biezumam ar 0,984:1; 1,375:1 vai 1,531:1 soli.",
+          "message": "Skaitļu skaits nesakrīt: avotā 7, tulkojumā 11"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 47,
+        "source": "Axial 0.3125",
+        "target": "Aksiāls 0,3125"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 47,
+          "source": "Axial 0.3125",
+          "target": "Aksiāls 0,3125",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 48,
+        "source": "Helical 0.3125 mm with 0.3125 interval",
+        "target": "Spirālveida 0,3125 mm ar 0,3125 intervālu"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 48,
+          "source": "Helical 0.3125 mm with 0.3125 interval",
+          "target": "Spirālveida 0,3125 mm ar 0,3125 intervālu",
+          "message": "Skaitļu skaits nesakrīt: avotā 2, tulkojumā 4"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 67,
+        "source": "From the image monitor, in the Reconstruction and Image Processing area, select Duplicate Recon or Add Recon for a particular series.",
+        "target": "No attēlu monitora apgabalā Reconstruction and Image Processing (Rekonstrukcija un attēlu apstrāde) atlasiet Duplicate Recon (Dublēt rekonstrukciju) vai Add Recon (Pievienot rekonstrukciju) konkrētai sērijai."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 67,
+          "source": "From the image monitor, in the Reconstruction and Image Processing area, select Duplicate Recon or Add Recon for a particular series.",
+          "target": "No attēlu monitora apgabalā Reconstruction and Image Processing (Rekonstrukcija un attēlu apstrāde) atlasiet Duplicate Recon (Dublēt rekonstrukciju) vai Add Recon (Pievienot rekonstrukciju) konkrētai sērijai.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 71,
+        "source": "Axial Slice thickness will change to 0.3125 mm, Helical will change to 0.3125 mm with 0.3125 mm interval.",
+        "target": "Aksiālais šķēles biezums mainīsies uz 0,3125 mm, spirālveida mainīsies uz 0,3125 mm ar 0,3125 mm intervālu."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 71,
+          "source": "Axial Slice thickness will change to 0.3125 mm, Helical will change to 0.3125 mm with 0.3125 mm interval.",
+          "target": "Aksiālais šķēles biezums mainīsies uz 0,3125 mm, spirālveida mainīsies uz 0,3125 mm ar 0,3125 mm intervālu.",
+          "message": "Skaitļu skaits nesakrīt: avotā 3, tulkojumā 6"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 117,
+        "source": "SmartPlan Offsets applied, intended anatomy may not be included.",
+        "target": "SmartPlan Offsets applied, intended anatomy may not be included. (Piemērotas SmartPlan nobīdes, iespējams, ka paredzētā anatomija nav ietverta.)"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 117,
+          "source": "SmartPlan Offsets applied, intended anatomy may not be included.",
+          "target": "SmartPlan Offsets applied, intended anatomy may not be included. (Piemērotas SmartPlan nobīdes, iespējams, ka paredzētā anatomija nav ietverta.)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bmay\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 119,
+        "source": "Notify your protocol manager to adjust Offsets in SmartPlan Management",
+        "target": "Notify your protocol manager to adjust Offsets in SmartPlan Management (Informējiet savu protokola pārvaldnieku par nobīdes pielāgošanu SmartPlan pārvaldībā)"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 119,
+          "source": "Notify your protocol manager to adjust Offsets in SmartPlan Management",
+          "target": "Notify your protocol manager to adjust Offsets in SmartPlan Management (Informējiet savu protokola pārvaldnieku par nobīdes pielāgošanu SmartPlan pārvaldībā)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 124,
+        "source": "Notify your protocol manager to adjust Offsets in SmartPlan Management.",
+        "target": "Notify your protocol manager to adjust Offsets in SmartPlan Management. (Informējiet savu protokola pārvaldnieku par nobīdes pielāgošanu SmartPlan pārvaldībā.)"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 124,
+          "source": "Notify your protocol manager to adjust Offsets in SmartPlan Management.",
+          "target": "Notify your protocol manager to adjust Offsets in SmartPlan Management. (Informējiet savu protokola pārvaldnieku par nobīdes pielāgošanu SmartPlan pārvaldībā.)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 134,
+        "source": "4 Row Interleaved provides a 40% mAs reduction, is 1.5 to 3 times faster than single slice helical and has minimal helical artifacts, but interleaved pitch 0.5:1 provides only one third of the coverage compared to interspaced mode.",
+        "target": "Režīms 4 Row Interleaved (4 rindu starpslāņa) nodrošina 40 % mAs samazinājumu un darbojas no 1,5 līdz 3 reizēm ātrāk nekā viena slāņa spirālveida režīms, tam ir minimāls spirālveida artefaktu daudzums, bet 0,5:1 starpslāņu solis salīdzinājumā ar starptelpas režīmu nodrošina tikai trešdaļu no pārklājuma."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 134,
+          "source": "4 Row Interleaved provides a 40% mAs reduction, is 1.5 to 3 times faster than single slice helical and has minimal helical artifacts, but interleaved pitch 0.5:1 provides only one third of the coverage compared to interspaced mode.",
+          "target": "Režīms 4 Row Interleaved (4 rindu starpslāņa) nodrošina 40 % mAs samazinājumu un darbojas no 1,5 līdz 3 reizēm ātrāk nekā viena slāņa spirālveida režīms, tam ir minimāls spirālveida artefaktu daudzums, bet 0,5:1 starpslāņu solis salīdzinājumā ar starptelpas režīmu nodrošina tikai trešdaļu no pārklājuma.",
+          "message": "Skaitļu skaits nesakrīt: avotā 6, tulkojumā 9"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 135,
+        "source": "4 Row Interspaced provides data acquisition 2 to 6 times faster than single slice helical, but requires more interpolation, has more helical artifacts, and only a 20% mAs reduction.",
+        "target": "Režīms 4 Row Interspaced (4 rindu starptelpas) nodrošina no 2 līdz 6 reizēm ātrāku datu ieguvi nekā viena slāņa spirālveida režīms, bet šim režīmam ir lielāka interpolācija, vairāk spirālveida artefaktu un tikai 20 % mAs samazinājums."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 135,
+          "source": "4 Row Interspaced provides data acquisition 2 to 6 times faster than single slice helical, but requires more interpolation, has more helical artifacts, and only a 20% mAs reduction.",
+          "target": "Režīms 4 Row Interspaced (4 rindu starptelpas) nodrošina no 2 līdz 6 reizēm ātrāku datu ieguvi nekā viena slāņa spirālveida režīms, bet šim režīmam ir lielāka interpolācija, vairāk spirālveida artefaktu un tikai 20 % mAs samazinājums.",
+          "message": "Skaitļu skaits nesakrīt: avotā 4, tulkojumā 5"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 137,
+        "source": "0.508:1, 0.516:1, 0.984:1, 0.992:1, 1.375:1 and 1.531:1.",
+        "target": "0,508:1, 0,516:1, 0,984:1, 0,992:1, 1,375:1 un 1,531:1."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 137,
+          "source": "0.508:1, 0.516:1, 0.984:1, 0.992:1, 1.375:1 and 1.531:1.",
+          "target": "0,508:1, 0,516:1, 0,984:1, 0,992:1, 1,375:1 un 1,531:1.",
+          "message": "Skaitļu skaits nesakrīt: avotā 12, tulkojumā 18"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 139,
+        "source": "0.531:1, 0.516:1, 0.984:1, 1.375:1 and 1.531:1.",
+        "target": "0,531:1, 0,516:1, 0,984:1, 1,375:1 un 1,531:1"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 139,
+          "source": "0.531:1, 0.516:1, 0.984:1, 1.375:1 and 1.531:1.",
+          "target": "0,531:1, 0,516:1, 0,984:1, 1,375:1 un 1,531:1",
+          "message": "Skaitļu skaits nesakrīt: avotā 10, tulkojumā 15"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 167,
+        "source": "2.5",
+        "target": "2,5"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 167,
+          "source": "2.5",
+          "target": "2,5",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 183,
+        "source": "1.25",
+        "target": "1,25"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 183,
+          "source": "1.25",
+          "target": "1,25",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 207,
+        "source": "0.625",
+        "target": "0,625"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 207,
+          "source": "0.625",
+          "target": "0,625",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 252,
+        "source": "2.5",
+        "target": "2,5"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 252,
+          "source": "2.5",
+          "target": "2,5",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 270,
+        "source": "1.25",
+        "target": "1,25"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 270,
+          "source": "1.25",
+          "target": "1,25",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 297,
+        "source": "0.625",
+        "target": "0,625"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 297,
+          "source": "0.625",
+          "target": "0,625",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 372,
+        "source": "To adjust Start and End locations, Plus (+) can be used for S values and Minus (-) for I values when using the 10-digit key pad.",
+        "target": "Lai pielāgotu vietas Start (Sākums) un End (Beigas), izmantojot desmit taustiņu tastatūru, pluszīmi (+) var izmantot S vērtību ievadīšanai un mīnusa zīmi (-) — I vērtību ievadīšanai."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 372,
+          "source": "To adjust Start and End locations, Plus (+) can be used for S values and Minus (-) for I values when using the 10-digit key pad.",
+          "target": "Lai pielāgotu vietas Start (Sākums) un End (Beigas), izmantojot desmit taustiņu tastatūru, pluszīmi (+) var izmantot S vērtību ievadīšanai un mīnusa zīmi (-) — I vērtību ievadīšanai.",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 0"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 392,
+        "source": "In the Window Width and Window Level fields, type the desired values.",
+        "target": "Ievadiet vēlamās vērtības laukos Window Width (Loga platums) un Window Level (Loga līmenis)."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 392,
+          "element": "Window",
+          "source": "In the Window Width and Window Level fields, type the desired values.",
+          "target": "Ievadiet vēlamās vērtības laukos Window Width (Loga platums) un Window Level (Loga līmenis).",
+          "message": "UI elements \"Window\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        },
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 392,
+          "element": "Window",
+          "source": "In the Window Width and Window Level fields, type the desired values.",
+          "target": "Ievadiet vēlamās vērtības laukos Window Width (Loga platums) un Window Level (Loga līmenis).",
+          "message": "UI elements \"Window\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 395,
+        "source": "Click On to enable gating.",
+        "target": "Lai iespējotu sinhronizāciju, noklikšķiniet uz On (Ieslēgt)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 395,
+          "source": "Click On to enable gating.",
+          "target": "Lai iespējotu sinhronizāciju, noklikšķiniet uz On (Ieslēgt).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 400,
+        "source": "Press Move to Scan.",
+        "target": "Nospiediet Move to Scan (Pāriet pie skenēšanas)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 400,
+          "source": "Press Move to Scan.",
+          "target": "Nospiediet Move to Scan (Pāriet pie skenēšanas).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 401,
+        "source": "Move to Scan flashes green on the scan control interface indicating you need to press it.",
+        "target": "Skenēšanas vadības interfeisa poga Move to Scan (Pāriet pie skenēšanas) mirgo zaļā krāsā, norādot uz to, ka tā ir jānospiež."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 401,
+          "source": "Move to Scan flashes green on the scan control interface indicating you need to press it.",
+          "target": "Skenēšanas vadības interfeisa poga Move to Scan (Pāriet pie skenēšanas) mirgo zaļā krāsā, norādot uz to, ka tā ir jānospiež.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 413,
+        "source": "Prepare the scan room before bringing in the patient.",
+        "target": "Pirms pacienta ievešanas skenēšanas telpā sagatavojiet to."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 413,
+          "source": "Prepare the scan room before bringing in the patient.",
+          "target": "Pirms pacienta ievešanas skenēšanas telpā sagatavojiet to.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 463,
+        "source": "It can be set before or after you start a new patient exam.",
+        "target": "To var iestatīt pirms vai pēc noklikšķināšanas uz jauna pacienta izmeklējuma."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 463,
+          "source": "It can be set before or after you start a new patient exam.",
+          "target": "To var iestatīt pirms vai pēc noklikšķināšanas uz jauna pacienta izmeklējuma.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 471,
+        "source": "From the Scan Control Interface, set volumes with the Patient-to-Operator and Operator-to-Patient , or Auto Voice communication controls.",
+        "target": "Skenēšanas vadības interfeisā iestatiet apjomu, izmantojot saziņas vadīklas Patient-to-Operator (Pacients–operators), Operator-to-Patient (Operators–pacients) vai Auto Voice."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 471,
+          "source": "From the Scan Control Interface, set volumes with the Patient-to-Operator and Operator-to-Patient , or Auto Voice communication controls.",
+          "target": "Skenēšanas vadības interfeisā iestatiet apjomu, izmantojot saziņas vadīklas Patient-to-Operator (Pacients–operators), Operator-to-Patient (Operators–pacients) vai Auto Voice.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 472,
+        "source": "Press the Talk control to test the Operator-to-Patient  volume level.",
+        "target": "Lai pārbaudītu skaļuma līmeni Operator-to-Patient (Operators-pacients), nospiediet vadīklu Talk (Runāt)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 472,
+          "source": "Press the Talk control to test the Operator-to-Patient  volume level.",
+          "target": "Lai pārbaudītu skaļuma līmeni Operator-to-Patient (Operators-pacients), nospiediet vadīklu Talk (Runāt).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 481,
+        "source": "Prepare the scan room before bringing in the patient.",
+        "target": "Pirms pacienta ievešanas skenēšanas telpā sagatavojiet to."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 481,
+          "source": "Prepare the scan room before bringing in the patient.",
+          "target": "Pirms pacienta ievešanas skenēšanas telpā sagatavojiet to.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 505,
+        "source": "Press the Laser Alignment Light button on gantry control or press Move to Scan with RCP Alignment Light to turn on the laser alignment lights.",
+        "target": "Nospiediet pogu Laser Alignment Light (Lāzera salāgošanas gaisma) uz gentrija vadības ierīces vai nospiediet opciju Move to Scan with RCP Alignment Light (Pārvietošana uz skenēšanu ar RCP salāgošanas gaismu), lai ieslēgtu lāzera salāgošanas gaismas."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 505,
+          "source": "Press the Laser Alignment Light button on gantry control or press Move to Scan with RCP Alignment Light to turn on the laser alignment lights.",
+          "target": "Nospiediet pogu Laser Alignment Light (Lāzera salāgošanas gaisma) uz gentrija vadības ierīces vai nospiediet opciju Move to Scan with RCP Alignment Light (Pārvietošana uz skenēšanu ar RCP salāgošanas gaismu), lai ieslēgtu lāzera salāgošanas gaismas.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 532,
+        "source": "It can be set before or after you start a new patient exam.",
+        "target": "To var iestatīt pirms vai pēc noklikšķināšanas uz jauna pacienta izmeklējuma."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 532,
+          "source": "It can be set before or after you start a new patient exam.",
+          "target": "To var iestatīt pirms vai pēc noklikšķināšanas uz jauna pacienta izmeklējuma.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 542,
+        "source": "From the Scan Control Interface, set volumes with the Patient-to-Operator and Operator-to-Patient , or Auto Voice communication controls.",
+        "target": "Skenēšanas vadības interfeisā iestatiet apjomu, izmantojot saziņas vadīklas Patient-to-Operator (Pacients–operators), Operator-to-Patient (Operators–pacients) vai Auto Voice."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 542,
+          "source": "From the Scan Control Interface, set volumes with the Patient-to-Operator and Operator-to-Patient , or Auto Voice communication controls.",
+          "target": "Skenēšanas vadības interfeisā iestatiet apjomu, izmantojot saziņas vadīklas Patient-to-Operator (Pacients–operators), Operator-to-Patient (Operators–pacients) vai Auto Voice.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 543,
+        "source": "Press the Talk control to test the Operator-to-Patient  volume level.",
+        "target": "Lai pārbaudītu skaļuma līmeni Operator-to-Patient (Operators-pacients), nospiediet vadīklu Talk (Runāt)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 543,
+          "source": "Press the Talk control to test the Operator-to-Patient  volume level.",
+          "target": "Lai pārbaudītu skaļuma līmeni Operator-to-Patient (Operators-pacients), nospiediet vadīklu Talk (Runāt).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 609,
+        "source": "Right-click on a series task to duplicate it.",
+        "target": "Noklikšķiniet ar peles labo pogu uz sērijas uzdevuma, lai dublētu to."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 609,
+          "source": "Right-click on a series task to duplicate it.",
+          "target": "Noklikšķiniet ar peles labo pogu uz sērijas uzdevuma, lai dublētu to.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 613,
+        "source": "Right-click on a series task to delete it.",
+        "target": "Noklikšķiniet ar peles labo pogu uz sērijas uzdevuma, lai dzēstu to."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 613,
+          "source": "Right-click on a series task to delete it.",
+          "target": "Noklikšķiniet ar peles labo pogu uz sērijas uzdevuma, lai dzēstu to.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 615,
+        "source": "Right-click on a series task to copy it.",
+        "target": "Ar peles labo pogu noklikšķiniet uz sērijas uzdevuma, lai to kopētu."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 615,
+          "source": "Right-click on a series task to copy it.",
+          "target": "Ar peles labo pogu noklikšķiniet uz sērijas uzdevuma, lai to kopētu.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 621,
+        "source": "Right-click on a group to duplicate it.",
+        "target": "Ar peles labo pogu noklikšķiniet uz grupas, lai to dublētu."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 621,
+          "source": "Right-click on a group to duplicate it.",
+          "target": "Ar peles labo pogu noklikšķiniet uz grupas, lai to dublētu.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 625,
+        "source": "Right-click on a group task to delete it.",
+        "target": "Noklikšķiniet ar peles labo pogu uz grupas uzdevuma, lai dzēstu to."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 625,
+          "source": "Right-click on a group task to delete it.",
+          "target": "Noklikšķiniet ar peles labo pogu uz grupas uzdevuma, lai dzēstu to.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 643,
+        "source": "Splits any One or More table position prescription within a single physical scan group and separates them into individual physical scan groups.",
+        "target": "Tiek sadalīts jebkurš galda pozīcijas nozīmējums One or More (Viens vai vairāk) atsevišķā fizisko skenu grupā, un tie tiek sadalīti atsevišķās fizisko skenu grupās."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 643,
+          "source": "Splits any One or More table position prescription within a single physical scan group and separates them into individual physical scan groups.",
+          "target": "Tiek sadalīts jebkurš galda pozīcijas nozīmējums One or More (Viens vai vairāk) atsevišķā fizisko skenu grupā, un tie tiek sadalīti atsevišķās fizisko skenu grupās.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bor\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 644,
+        "source": "Split and Link",
+        "target": "Split and Link"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 644,
+          "source": "Split and Link",
+          "target": "Split and Link",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 645,
+        "source": "Splits any One or More table position prescription within a single physical scan group and separates them into individual physical scan groups; then the start and end between groups are linked and contiguous.",
+        "target": "Tiek sadalīts jebkurš galda pozīcijas nozīmējums One or More (Viens vai vairāk) vienā fizisko skenu grupā, un tie tiek sadalīti atsevišķās fizisko skenu grupās. Pēc tam sākums un beigas starp grupām tiek sasaistītas un ir blakus stāvošas."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 645,
+          "source": "Splits any One or More table position prescription within a single physical scan group and separates them into individual physical scan groups; then the start and end between groups are linked and contiguous.",
+          "target": "Tiek sadalīts jebkurš galda pozīcijas nozīmējums One or More (Viens vai vairāk) vienā fizisko skenu grupā, un tie tiek sadalīti atsevišķās fizisko skenu grupās. Pēc tam sākums un beigas starp grupām tiek sasaistītas un ir blakus stāvošas.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bor\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 659,
+        "source": "High and low kV and mA are fixed and cannot be changed.",
+        "target": "Augstā un zemā kV un mA vērtība ir fiksēta, un to nevar mainīt."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 659,
+          "source": "High and low kV and mA are fixed and cannot be changed.",
+          "target": "Augstā un zemā kV un mA vērtība ir fiksēta, un to nevar mainīt.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 792,
+        "source": "Acquisition Window and Heart Rate widget",
+        "target": "Logrīks Acquisition Window and Heart Rate (Ieguves logs un sirdsdarbības frekvence)"
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 792,
+          "element": "Window",
+          "source": "Acquisition Window and Heart Rate widget",
+          "target": "Logrīks Acquisition Window and Heart Rate (Ieguves logs un sirdsdarbības frekvence)",
+          "message": "UI elements \"Window\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        },
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 792,
+          "source": "Acquisition Window and Heart Rate widget",
+          "target": "Logrīks Acquisition Window and Heart Rate (Ieguves logs un sirdsdarbības frekvence)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 858,
+        "source": "(need new IU images showing RAPP panel)",
+        "target": "(Nepieciešami jauni IU attēli, kas parāda RAPP paneli)"
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 858,
+          "element": "panel",
+          "source": "(need new IU images showing RAPP panel)",
+          "target": "(Nepieciešami jauni IU attēli, kas parāda RAPP paneli)",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 859,
+        "source": "The RAPP panel will be displayed after patient selection and protocol selection.",
+        "target": "RAPP panelis tiks parādīts pēc pacienta atlases un protokola izvēles."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 859,
+          "element": "panel",
+          "source": "The RAPP panel will be displayed after patient selection and protocol selection.",
+          "target": "RAPP panelis tiks parādīts pēc pacienta atlases un protokola izvēles.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 894,
+        "source": "Select any button below, then press Move to Scan on the Scan Control Interface when prompted.",
+        "target": "Nospiediet jebkuru zemāk redzamo pogu, tad pēc aicinājuma skenēšanas vadības interfeisā nospiediet Move to Scan (Pārvietošana uz skenēšanu)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 894,
+          "source": "Select any button below, then press Move to Scan on the Scan Control Interface when prompted.",
+          "target": "Nospiediet jebkuru zemāk redzamo pogu, tad pēc aicinājuma skenēšanas vadības interfeisā nospiediet Move to Scan (Pārvietošana uz skenēšanu).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 896,
+        "source": "Press and hold Move to Scan on the Scan Control Interface to begin table motion.",
+        "target": "Turiet nospiestu pogu Move to Scan (Pārvietošana uz skenēšanu) skenēšanas vadības interfeisā, lai sāktu galda kustību."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 896,
+          "source": "Press and hold Move to Scan on the Scan Control Interface to begin table motion.",
+          "target": "Turiet nospiestu pogu Move to Scan (Pārvietošana uz skenēšanu) skenēšanas vadības interfeisā, lai sāktu galda kustību.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 898,
+        "source": "To clear the selection click anywhere within the panel.",
+        "target": "Lai atceltu atlasi, noklikšķiniet jebkurā vietā panelī."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 898,
+          "element": "panel",
+          "source": "To clear the selection click anywhere within the panel.",
+          "target": "Lai atceltu atlasi, noklikšķiniet jebkurā vietā panelī.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 901,
+        "source": "Press Move to Scan on the Scan Control Interface to activate selected control.",
+        "target": "Nospiediet pogu Move to Scan (Pārvietošana uz skenēšanu) skenēšanas vadības interfeisā, lai aktivizētu izvēlēto vadības ierīci."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 901,
+          "source": "Press Move to Scan on the Scan Control Interface to activate selected control.",
+          "target": "Nospiediet pogu Move to Scan (Pārvietošana uz skenēšanu) skenēšanas vadības interfeisā, lai aktivizētu izvēlēto vadības ierīci.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 902,
+        "source": "To clear the selection click anywhere within the panel.",
+        "target": "Lai atceltu atlasi, noklikšķiniet jebkurā vietā panelī."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 902,
+          "element": "panel",
+          "source": "To clear the selection click anywhere within the panel.",
+          "target": "Lai atceltu atlasi, noklikšķiniet jebkurā vietā panelī.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 922,
+        "source": "Close if any of the following application(s) are running:",
+        "target": "Ja kāda no šīm lietojumprogrammām darbojas, aizveriet to:"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 922,
+          "source": "Close if any of the following application(s) are running:",
+          "target": "Ja kāda no šīm lietojumprogrammām darbojas, aizveriet to:",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 939,
+        "source": "Move Cradle In Slow speed",
+        "target": "Kustības Cradle In Slow (Galda virsma uz iekšpusi, lēni) ātrums"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 939,
+          "source": "Move Cradle In Slow speed",
+          "target": "Kustības Cradle In Slow (Galda virsma uz iekšpusi, lēni) ātrums",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bin\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 947,
+        "source": "Move Cradle In Fast speed",
+        "target": "Kustības Cradle In Fast (Galda virsma uz iekšpusi, ātri) ātrums"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 947,
+          "source": "Move Cradle In Fast speed",
+          "target": "Kustības Cradle In Fast (Galda virsma uz iekšpusi, ātri) ātrums",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bin\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 954,
+        "source": "System Preference for auto position is On:",
+        "target": "Sistēmas preference automātiskajai pozīcijai ir On (Iesl.):"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 954,
+          "source": "System Preference for auto position is On:",
+          "target": "Sistēmas preference automātiskajai pozīcijai ir On (Iesl.):",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 959,
+        "source": "Toggle internal Alignment Light On/ Off",
+        "target": "Pārslēgt iekšējo Alignment Light On/ Off (Salāgošanas gaisma iesl./Izsl.)"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 959,
+          "source": "Toggle internal Alignment Light On/ Off",
+          "target": "Pārslēgt iekšējo Alignment Light On/ Off (Salāgošanas gaisma iesl./Izsl.)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 964,
+        "source": "Move to Scan becomes inactive upon release.",
+        "target": "Atlaižot pogu, opcija Move to Scan (Pārvietošana uz skenēšanu) kļūst neaktīva."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 964,
+          "source": "Move to Scan becomes inactive upon release.",
+          "target": "Atlaižot pogu, opcija Move to Scan (Pārvietošana uz skenēšanu) kļūst neaktīva.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 977,
+        "source": "Follow on screen instructions for Move to Scan function button when flashing.",
+        "target": "Veiciet ekrānā norādītās funkcijas Move to Scan (Pārvietošana uz skenēšanu) pogas darbības, kad tā mirgo."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 977,
+          "source": "Follow on screen instructions for Move to Scan function button when flashing.",
+          "target": "Veiciet ekrānā norādītās funkcijas Move to Scan (Pārvietošana uz skenēšanu) pogas darbības, kad tā mirgo.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1000,
+        "source": "The original language of this document is English, Direction Number 6789320-1EN, Revision 1, and is applicable to software 25MW27.xx for .",
+        "target": "Šī dokumenta oriģinālversija ir angļu valodā, izdevuma Nr.: 6789320-1EN, pārsk. izd. Nr. 1. Un dokuments attiecas uz  1.0 programmatūras versiju 23MW17.xx."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1000,
+          "source": "The original language of this document is English, Direction Number 6789320-1EN, Revision 1, and is applicable to software 25MW27.xx for .",
+          "target": "Šī dokumenta oriģinālversija ir angļu valodā, izdevuma Nr.: 6789320-1EN, pārsk. izd. Nr. 1. Un dokuments attiecas uz  1.0 programmatūras versiju 23MW17.xx.",
+          "message": "Skaitļu skaits nesakrīt: avotā 5, tulkojumā 6"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1007,
+        "source": "If needed, the landmark can be set manually prior to selecting a patient from the gantry display patient schedule or the landmark can be updated manually after Auto Positioning has set it.",
+        "target": "Ja nepieciešams, orientieri var iestatīt manuāli, pirms gentrija displeja pacientu grafikā tiek atlasīts pacients, vai arī orientieri var manuāli atjaunināt pēc tam, kad automātiskā pozicionēšana ir to iestatījusi."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1007,
+          "source": "If needed, the landmark can be set manually prior to selecting a patient from the gantry display patient schedule or the landmark can be updated manually after Auto Positioning has set it.",
+          "target": "Ja nepieciešams, orientieri var iestatīt manuāli, pirms gentrija displeja pacientu grafikā tiek atlasīts pacients, vai arī orientieri var manuāli atjaunināt pēc tam, kad automātiskā pozicionēšana ir to iestatījusi.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1063,
+        "source": "Make sure to check validity of the scan range shown on the gantry display and adjust it manually on the video when necessary before starting the automatic table motion.",
+        "target": "Neaizmirstiet pārbaudītu skenēšanas diapazona derīgumu gentrija displejā, un, ja nepieciešams, pirms automātiskās galda kustības sākšanas noregulējiet to manuāli uz video."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1063,
+          "source": "Make sure to check validity of the scan range shown on the gantry display and adjust it manually on the video when necessary before starting the automatic table motion.",
+          "target": "Neaizmirstiet pārbaudītu skenēšanas diapazona derīgumu gentrija displejā, un, ja nepieciešams, pirms automātiskās galda kustības sākšanas noregulējiet to manuāli uz video.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1082,
+        "source": "For patient safety, Xtream camera will predict potential collision area (such as patient body or accessories) with gantry and highlighted in orange on the video.",
+        "target": "Pacienta drošībai Xtream kamera prognozē iespējamo sadursmes zonu (piemēram, pacienta ķermeņa vai piederumu) ar gentriju un video iezīmē to oranžā krāsā."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1082,
+          "source": "For patient safety, Xtream camera will predict potential collision area (such as patient body or accessories) with gantry and highlighted in orange on the video.",
+          "target": "Pacienta drošībai Xtream kamera prognozē iespējamo sadursmes zonu (piemēram, pacienta ķermeņa vai piederumu) ar gentriju un video iezīmē to oranžā krāsā.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1106,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1106,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1110,
+        "source": "The system will display attention messages to guide users on when IQ Stabilization Calibrations should be performed.",
+        "target": "Sistēma parāda uzmanības ziņojumu, kas norādīta lietotājiem par to, kad jāveic IQ stabilizācijas kalibrēšana."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1110,
+          "source": "The system will display attention messages to guide users on when IQ Stabilization Calibrations should be performed.",
+          "target": "Sistēma parāda uzmanības ziņojumu, kas norādīta lietotājiem par to, kad jāveic IQ stabilizācijas kalibrēšana.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1198,
+        "source": "The system prompts you to clean it and remove any obstructions.",
+        "target": "Sistēma prasa to notīrīt un noņemt visus šķēršļus."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1198,
+          "source": "The system prompts you to clean it and remove any obstructions.",
+          "target": "Sistēma prasa to notīrīt un noņemt visus šķēršļus.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1230,
+        "source": "Energy Saving mode is only recommended when scanner is scheduled to be not in use for more than four hours, and there will be no emergency scan needs.",
+        "target": "Enerģijas taupīšanas režīmu ir ieteicams izmantot tikai tad, kad skeneris netiek izmantots vairāk par četrām stundām un kad ir zināms, ka nebūs vajadzības to izmantot ārkārtas gadījumā."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1230,
+          "source": "Energy Saving mode is only recommended when scanner is scheduled to be not in use for more than four hours, and there will be no emergency scan needs.",
+          "target": "Enerģijas taupīšanas režīmu ir ieteicams izmantot tikai tad, kad skeneris netiek izmantots vairāk par četrām stundām un kad ir zināms, ka nebūs vajadzības to izmantot ārkārtas gadījumā.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1231,
+        "source": "Air Conditioner should be ON to maintain the room Temperature.",
+        "target": "Gaisa kondicionierim ir jābūt IESLĒGTAM (ON), lai uzturētu temperatūru telpā."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1231,
+          "source": "Air Conditioner should be ON to maintain the room Temperature.",
+          "target": "Gaisa kondicionierim ir jābūt IESLĒGTAM (ON), lai uzturētu temperatūru telpā.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1238,
+        "source": "Air Conditioner should be ON to maintain the room Temperature.",
+        "target": "Gaisa kondicionierim ir jābūt IESLĒGTAM (ON), lai uzturētu temperatūru telpā."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1238,
+          "source": "Air Conditioner should be ON to maintain the room Temperature.",
+          "target": "Gaisa kondicionierim ir jābūt IESLĒGTAM (ON), lai uzturētu temperatūru telpā.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1303,
+        "source": "Press Move to Scan to advance the cradle to the start location.",
+        "target": "Nospiediet Move to Scan (Virzīties uz skenēšanas sākuma vietu), lai virzītu galda virsmu skenēšanas sākuma vietā."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1303,
+          "source": "Press Move to Scan to advance the cradle to the start location.",
+          "target": "Nospiediet Move to Scan (Virzīties uz skenēšanas sākuma vietu), lai virzītu galda virsmu skenēšanas sākuma vietā.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1304,
+        "source": "The Move to Scan button has two functions, to advance the cradle to the start position and to perform action when using the remote control panel.",
+        "target": "Pogai Move to Scan (Pārvietošana uz skenēšanu) ir divas funkcijas: galda virsmas pārvietošana sākuma pozīcijā un darbības veikšana, izmantojot attālās vadības paneli."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 1304,
+          "element": "panel",
+          "source": "The Move to Scan button has two functions, to advance the cradle to the start position and to perform action when using the remote control panel.",
+          "target": "Pogai Move to Scan (Pārvietošana uz skenēšanu) ir divas funkcijas: galda virsmas pārvietošana sākuma pozīcijā un darbības veikšana, izmantojot attālās vadības paneli.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        },
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1304,
+          "source": "The Move to Scan button has two functions, to advance the cradle to the start position and to perform action when using the remote control panel.",
+          "target": "Pogai Move to Scan (Pārvietošana uz skenēšanu) ir divas funkcijas: galda virsmas pārvietošana sākuma pozīcijā un darbības veikšana, izmantojot attālās vadības paneli.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1305,
+        "source": "Press Move to Scan when the indicator flashes green within three minutes.",
+        "target": "Kad indikators mirgo zaļā krāsā, trīs minūšu laikā nospiediet Move to Scan (Pārvietošana uz skenēšanu)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1305,
+          "source": "Press Move to Scan when the indicator flashes green within three minutes.",
+          "target": "Kad indikators mirgo zaļā krāsā, trīs minūšu laikā nospiediet Move to Scan (Pārvietošana uz skenēšanu).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1341,
+        "source": "The muted intercom will then automatically pick up and immediately play back the sounds of anyone talking in the scan room.",
+        "target": "Tiklīdz skenēšanas telpā kāds sāk runāt, saziņas sistēma to automātiski uztver un atsāk atskaņošanu."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1341,
+          "source": "The muted intercom will then automatically pick up and immediately play back the sounds of anyone talking in the scan room.",
+          "target": "Tiklīdz skenēšanas telpā kāds sāk runāt, saziņas sistēma to automātiski uztver un atsāk atskaņošanu.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1356,
+        "source": "70 kV Scan Mode",
+        "target": "70 kV Scan Mode (70 kV skenēšanas režīms)"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1356,
+          "source": "70 kV Scan Mode",
+          "target": "70 kV Scan Mode (70 kV skenēšanas režīms)",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1361,
+        "source": "Cardiac Scan Modes",
+        "target": "Cardiac Scan Modes (Sirds skenēšanas režīmi)"
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 1361,
+          "element": "Scan Mode",
+          "source": "Cardiac Scan Modes",
+          "target": "Cardiac Scan Modes (Sirds skenēšanas režīmi)",
+          "message": "UI elements \"Scan Mode\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1376,
+        "source": "SmartPrep with Dynamic Transition",
+        "target": "SmartPrep with Dynamic Transition (SmartPrep ar dinamisko pāreju)"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1376,
+          "source": "SmartPrep with Dynamic Transition",
+          "target": "SmartPrep with Dynamic Transition (SmartPrep ar dinamisko pāreju)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bwith\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1386,
+        "source": "0.28 Sec Rotation",
+        "target": "0.28 Sec Rotation (0,28 s rotācija)"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1386,
+          "source": "0.28 Sec Rotation",
+          "target": "0.28 Sec Rotation (0,28 s rotācija)",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 3"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1387,
+        "source": "Enables 0.28 second scanning.",
+        "target": "Tiek iespējota 0,28 sekunžu skenēšana."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1387,
+          "source": "Enables 0.28 second scanning.",
+          "target": "Tiek iespējota 0,28 sekunžu skenēšana.",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1388,
+        "source": "0.23 Sec Rotation",
+        "target": "0.23 Sec Rotation (0,23 s rotācija)"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1388,
+          "source": "0.23 Sec Rotation",
+          "target": "0.23 Sec Rotation (0,23 s rotācija)",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 3"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1389,
+        "source": "Enables 0.23 second scanning.",
+        "target": "Tiek iespējota 0,23 sekunžu skenēšana."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1389,
+          "source": "Enables 0.23 second scanning.",
+          "target": "Tiek iespējota 0,23 sekunžu skenēšana.",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1390,
+        "source": "64 Slice",
+        "target": "64 Slice (64 slāņi)"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1390,
+          "source": "64 Slice",
+          "target": "64 Slice (64 slāņi)",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1392,
+        "source": "128 Slice",
+        "target": "128 Slice (128 slāņi)"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1392,
+          "source": "128 Slice",
+          "target": "128 Slice (128 slāņi)",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1394,
+        "source": "256 Slice",
+        "target": "256 Slice (256 slāņi)"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1394,
+          "source": "256 Slice",
+          "target": "256 Slice (256 slāņi)",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1410,
+        "source": "3D Dose Modulation",
+        "target": "3D Dose Modulation (3D devas modulācija)"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1410,
+          "source": "3D Dose Modulation",
+          "target": "3D Dose Modulation (3D devas modulācija)",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1424,
+        "source": "VesseIIQ Xpress and AutoBone (OC)",
+        "target": "VesseIIQ Xpress and AutoBone (OC)"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1424,
+          "source": "VesseIIQ Xpress and AutoBone (OC)",
+          "target": "VesseIIQ Xpress and AutoBone (OC)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1425,
+        "source": "VesselIQ Xpress and AutoBone software option facilitates removal of bone and CT table from CT Angiography (CTA) studies of the abdomen and lower extremities.",
+        "target": "Programmatūras opcija VesselIQ Xpress and AutoBone atvieglo kaulu un DT galda izņemšanu no vēdera un apakšējo ekstremitāšu DT angiogrāfijas (CTA) izmeklējumiem."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1425,
+          "source": "VesselIQ Xpress and AutoBone software option facilitates removal of bone and CT table from CT Angiography (CTA) studies of the abdomen and lower extremities.",
+          "target": "Programmatūras opcija VesselIQ Xpress and AutoBone atvieglo kaulu un DT galda izņemšanu no vēdera un apakšējo ekstremitāšu DT angiogrāfijas (CTA) izmeklējumiem.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1437,
+        "source": "AutoBone Xpress and Vessel IQ Xpress",
+        "target": "AutoBone Xpress and Vessel IQ Xpress"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1437,
+          "source": "AutoBone Xpress and Vessel IQ Xpress",
+          "target": "AutoBone Xpress and Vessel IQ Xpress",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1465,
+        "source": "Enables Class 4 in CiA425 of a CiA425 compliant injector allowing ON/OFF and injector parameters to be set from the CT scanner.",
+        "target": "Tiek iespējota standarta CiA425 4. klase CiA425 atbilstīgam injektoram, ļaujot veikt darbību ON/OFF (Ieslēgt/izslēgt) un iestatīt injektora parametrus DT skenerī."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1465,
+          "source": "Enables Class 4 in CiA425 of a CiA425 compliant injector allowing ON/OFF and injector parameters to be set from the CT scanner.",
+          "target": "Tiek iespējota standarta CiA425 4. klase CiA425 atbilstīgam injektoram, ļaujot veikt darbību ON/OFF (Ieslēgt/izslēgt) un iestatīt injektora parametrus DT skenerī.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1507,
+        "source": "SmartScore 4.0 software option is designed to identify the presence of regional and global coronary artery calcification from a CT scan, then measure and score the results.",
+        "target": "Programmatūras opcija SmartScore 4.0 ir izstrādāta, lai noteiktu reģionālas un vispārējas koronāro artēriju pārkalķošanās esamību DT skenējumā un pēc tam izmērītu to un aprēķinātu rezultātus."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1507,
+          "source": "SmartScore 4.0 software option is designed to identify the presence of regional and global coronary artery calcification from a CT scan, then measure and score the results.",
+          "target": "Programmatūras opcija SmartScore 4.0 ir izstrādāta, lai noteiktu reģionālas un vispārējas koronāro artēriju pārkalķošanās esamību DT skenējumā un pēc tam izmērītu to un aprēķinātu rezultātus.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1542,
+        "source": "The system default for Notification Value (NV) Checking is CTDIvol On and DLP Off.",
+        "target": "Sistēmas noklusējuma iestatījums paziņojumu vērtību (NV) pārbaudei ir funkcija CTDIvol stāvoklī On (Ieslēgts) un funkcija DLP stāvoklī Off (Izslēgts)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1542,
+          "source": "The system default for Notification Value (NV) Checking is CTDIvol On and DLP Off.",
+          "target": "Sistēmas noklusējuma iestatījums paziņojumu vērtību (NV) pārbaudei ir funkcija CTDIvol stāvoklī On (Ieslēgts) un funkcija DLP stāvoklī Off (Izslēgts).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1549,
+        "source": "The maximum AV value for CTDIvol is 2,000 mGy.",
+        "target": "CTDIvol maksimālā trauksmes vērtība ir 2000 mGy."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1549,
+          "source": "The maximum AV value for CTDIvol is 2,000 mGy.",
+          "target": "CTDIvol maksimālā trauksmes vērtība ir 2000 mGy.",
+          "message": "Skaitļu skaits nesakrīt: avotā 2, tulkojumā 1"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1551,
+        "source": "The system default is AV checking by CTDIvolOn with a value of 1,000 mGy and/or DLPOff with a value of 0 mGy-cm.",
+        "target": "Sistēmas noklusējuma iestatījums opcijai AV checking (Trauksmes vērtības pārbaude) ir funkcija CTDIvol stāvoklī On (Ieslēgts) ar vērtību 1000 mGy un/vai DLP stāvoklī Off (Izslēgts) ar vērtību 0 mGy-cm."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1551,
+          "source": "The system default is AV checking by CTDIvolOn with a value of 1,000 mGy and/or DLPOff with a value of 0 mGy-cm.",
+          "target": "Sistēmas noklusējuma iestatījums opcijai AV checking (Trauksmes vērtības pārbaude) ir funkcija CTDIvol stāvoklī On (Ieslēgts) ar vērtību 1000 mGy un/vai DLP stāvoklī Off (Izslēgts) ar vērtību 0 mGy-cm.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        },
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1551,
+          "source": "The system default is AV checking by CTDIvolOn with a value of 1,000 mGy and/or DLPOff with a value of 0 mGy-cm.",
+          "target": "Sistēmas noklusējuma iestatījums opcijai AV checking (Trauksmes vērtības pārbaude) ir funkcija CTDIvol stāvoklī On (Ieslēgts) ar vērtību 1000 mGy un/vai DLP stāvoklī Off (Izslēgts) ar vērtību 0 mGy-cm.",
+          "message": "Skaitļu skaits nesakrīt: avotā 3, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1578,
+        "source": "By acquiring data of an object at different energy levels, data with different attenuation values corresponding to the energy levels is generated.",
+        "target": "Iegūstot datus par objektu, ja izmantojat atšķirīgus enerģijas līmeņus, var iegūt datus ar atšķirīgu absorbciju, kas atbilst konkrētajam enerģijas līmenim."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1578,
+          "source": "By acquiring data of an object at different energy levels, data with different attenuation values corresponding to the energy levels is generated.",
+          "target": "Iegūstot datus par objektu, ja izmantojat atšķirīgus enerģijas līmeņus, var iegūt datus ar atšķirīgu absorbciju, kas atbilst konkrētajam enerģijas līmenim.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bat\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1583,
+        "source": "The system cycles or switches the kV from high to low at a very fast switching rate of up to 4.8kHz and utilizes the fast response of the detector to capture the two data sets that are temporally registered to within micro-seconds.",
+        "target": "Sistēma darbojas ciklos vai pārslēdz enerģiju no spēcīgas uz vāju un tas notiek ļoti strauji, līdz pat 4,8 kHz, un izmantot detekora ātro reakciju, lai uztvertu abas datu kopas, kas tiek laikā reģistrētas mikrosekunžu laikā."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 1583,
+          "source": "The system cycles or switches the kV from high to low at a very fast switching rate of up to 4.8kHz and utilizes the fast response of the detector to capture the two data sets that are temporally registered to within micro-seconds.",
+          "target": "Sistēma darbojas ciklos vai pārslēdz enerģiju no spēcīgas uz vāju un tas notiek ļoti strauji, līdz pat 4,8 kHz, un izmantot detekora ātro reakciju, lai uztvertu abas datu kopas, kas tiek laikā reģistrētas mikrosekunžu laikā.",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1616,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1616,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1630,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1630,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1639,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1639,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1650,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1650,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1660,
+        "source": "Click Save to save the new preferences or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jaunās preferences, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1660,
+          "source": "Click Save to save the new preferences or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jaunās preferences, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1666,
+        "source": "Select On to enable Dose Analytics.",
+        "target": "Atlasiet On (Ieslēgt), lai iespējotu Dose Analytics (Devas analītika)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1666,
+          "source": "Select On to enable Dose Analytics.",
+          "target": "Atlasiet On (Ieslēgt), lai iespējotu Dose Analytics (Devas analītika).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1669,
+        "source": "Select Reports Only or Reports and Primary Images for Integration Mode.",
+        "target": "Atlasiet Reports Only (Tikai ziņojumi) vai Reports and Primary Images (Ziņojumi un primārie attēli) Integration Mode (Integrācijas režīmam)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1669,
+          "source": "Select Reports Only or Reports and Primary Images for Integration Mode.",
+          "target": "Atlasiet Reports Only (Tikai ziņojumi) vai Reports and Primary Images (Ziņojumi un primārie attēli) Integration Mode (Integrācijas režīmam).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1671,
+        "source": "- If select Reports and Primary Images, Dose SR, Dose SC, Contrast Report, and primary recon images for both scout and axial are automatically transferred to network destination you selected in step 5.",
+        "target": "- Ja atlasīts Reports and Primary Images (Ziņojumi un primārie attēli), devas SR, devas SC, kontrastvielu ziņojumi, kā arī primārās rekonstrukcijas izpētes un aksiālās versijas attēli tiks automātiski nosūtīti uz 5. solī atlasīto galamērķi."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1671,
+          "source": "- If select Reports and Primary Images, Dose SR, Dose SC, Contrast Report, and primary recon images for both scout and axial are automatically transferred to network destination you selected in step 5.",
+          "target": "- Ja atlasīts Reports and Primary Images (Ziņojumi un primārie attēli), devas SR, devas SC, kontrastvielu ziņojumi, kā arī primārās rekonstrukcijas izpētes un aksiālās versijas attēli tiks automātiski nosūtīti uz 5. solī atlasīto galamērķi.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1672,
+        "source": "Click Save to save the new preferences or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jaunās preferences, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1672,
+          "source": "Click Save to save the new preferences or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jaunās preferences, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1682,
+        "source": "To enable Energy Saving Mode change default to “ON”.",
+        "target": "Lai iespējotu enerģijas taupīšanas režīmu, mainiet noklusējuma iestatījumu uz “ON” (ieslēgts)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1682,
+          "source": "To enable Energy Saving Mode change default to “ON”.",
+          "target": "Lai iespējotu enerģijas taupīšanas režīmu, mainiet noklusējuma iestatījumu uz “ON” (ieslēgts).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1685,
+        "source": "Click Save to save the new preferences or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jaunās preferences, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1685,
+          "source": "Click Save to save the new preferences or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jaunās preferences, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1699,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1699,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1766,
+        "source": "Click SmartPlan and set to On.",
+        "target": "Noklikšķiniet uz SmartPlan un iestatiet to uz On (Ieslēgts)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1766,
+          "source": "Click SmartPlan and set to On.",
+          "target": "Noklikšķiniet uz SmartPlan un iestatiet to uz On (Ieslēgts).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1767,
+        "source": "Click Center Adjust set to On or Off.",
+        "target": "Noklikšķiniet uz Center Adjust (centra pielāgošana), kas ir iestatīta kā On (Ieslēgts) vai Off (Izslēgts)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1767,
+          "source": "Click Center Adjust set to On or Off.",
+          "target": "Noklikšķiniet uz Center Adjust (centra pielāgošana), kas ir iestatīta kā On (Ieslēgts) vai Off (Izslēgts).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1768,
+        "source": "Click DFOV Adjust set to On or Off.",
+        "target": "Noklikšķiniet uz DFOV Adjust (DFOV pielāgošana), kas ir iestatīta kā On (Ieslēgts) vai Off (Izslēgts)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1768,
+          "source": "Click DFOV Adjust set to On or Off.",
+          "target": "Noklikšķiniet uz DFOV Adjust (DFOV pielāgošana), kas ir iestatīta kā On (Ieslēgts) vai Off (Izslēgts).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1769,
+        "source": "Center Adjust and DFOV Adjust will default to ON for all CID categories except Neuro.",
+        "target": "Center Adjust and DFOV Adjust pēc noklusējuma būs iestatītas uz ON (Ieslēgts) visām CID kategorijām, izņemot attiecībā uz neiroloģiju."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1769,
+          "source": "Center Adjust and DFOV Adjust will default to ON for all CID categories except Neuro.",
+          "target": "Center Adjust and DFOV Adjust pēc noklusējuma būs iestatītas uz ON (Ieslēgts) visām CID kategorijām, izņemot attiecībā uz neiroloģiju.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 1770,
+        "source": "When CID Categrory is Neuro, Center Adjust defaults to ON, and DFOV Adjust defaults to OFF.",
+        "target": "Ja CID kategorija ir neirooģija, Center Adjust pēc noklusējumu būs iestatīta uz ON (Ieslēgts), bet DFOV Adjust pēc noklusējuma būs iestatīta uz OFF (Izslēgts)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 1770,
+          "source": "When CID Categrory is Neuro, Center Adjust defaults to ON, and DFOV Adjust defaults to OFF.",
+          "target": "Ja CID kategorija ir neirooģija, Center Adjust pēc noklusējumu būs iestatīta uz ON (Ieslēgts), bet DFOV Adjust pēc noklusējuma būs iestatīta uz OFF (Izslēgts).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2065,
+        "source": "You need to have some understanding of their functions to use them in your protocols.",
+        "target": "Ja gatavojaties izmantot tās protokolos, ir jāsaprot to funkcijas."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2065,
+          "source": "You need to have some understanding of their functions to use them in your protocols.",
+          "target": "Ja gatavojaties izmantot tās protokolos, ir jāsaprot to funkcijas.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2070,
+        "source": "From the CT Login authentication window, enter your Log On Name and Password.",
+        "target": "Autentifikācijas logā CT Login (DT pieteikšanās) ievadiet Log On Name un Password."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2070,
+          "source": "From the CT Login authentication window, enter your Log On Name and Password.",
+          "target": "Autentifikācijas logā CT Login (DT pieteikšanās) ievadiet Log On Name un Password.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2107,
+        "source": "CTDIvol, DLP and Dw/SSDE",
+        "target": "CTDIvol, DLP and Dw/SSDE"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2107,
+          "source": "CTDIvol, DLP and Dw/SSDE",
+          "target": "CTDIvol, DLP and Dw/SSDE",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2111,
+        "source": "For additional information on specific CTDIvol doses and their calculations, refer to your Technical Reference manual.",
+        "target": "Papildinformāciju par specifiskām CTDIvol devām un to aprēķiniem skatiet dokumentu Technical Reference manual."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2111,
+          "source": "For additional information on specific CTDIvol doses and their calculations, refer to your Technical Reference manual.",
+          "target": "Papildinformāciju par specifiskām CTDIvol devām un to aprēķiniem skatiet dokumentu Technical Reference manual.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2128,
+        "source": "The following cleaners and disinfectants have been evaluated based on their chemical compatibility with the device materials.",
+        "target": "Tālāk norādītie tīrīšanas un dezinfekcijas līdzekļi ir novērtēti, pamatojoties uz to ķīmisko saderību ar ierīces materiāliem."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2128,
+          "source": "The following cleaners and disinfectants have been evaluated based on their chemical compatibility with the device materials.",
+          "target": "Tālāk norādītie tīrīšanas un dezinfekcijas līdzekļi ir novērtēti, pamatojoties uz to ķīmisko saderību ar ierīces materiāliem.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2136,
+        "source": "Cleaning is the removal of visible soil (for example, organic and inorganic material) from objects and surfaces and normally is accomplished manually or mechanically using water with detergents or enzymatic products.",
+        "target": "Tīrīšana ir redzamā piesārņojuma (piemēram, organiska un neorganiska materiāla) noņemšana no objektiem un virsmām, un parasti to veic manuāli vai mehāniski, izmantojot ūdeni ar mazgāšanas līdzekļiem vai fermentatīviem produktiem."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2136,
+          "source": "Cleaning is the removal of visible soil (for example, organic and inorganic material) from objects and surfaces and normally is accomplished manually or mechanically using water with detergents or enzymatic products.",
+          "target": "Tīrīšana ir redzamā piesārņojuma (piemēram, organiska un neorganiska materiāla) noņemšana no objektiem un virsmām, un parasti to veic manuāli vai mehāniski, izmantojot ūdeni ar mazgāšanas līdzekļiem vai fermentatīviem produktiem.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2142,
+        "source": "Additionally, upon inspection of the head holder insert, if saturated in bodily fluids please dispose and replace.",
+        "target": "Tāpat, ja galvas turētāja ieliktņa pārbaudes rezultātā konstatējat, ka tas ir piesārņots ar ķermeņa šķidrumiem, likvidējiet un nomainiet to."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2142,
+          "source": "Additionally, upon inspection of the head holder insert, if saturated in bodily fluids please dispose and replace.",
+          "target": "Tāpat, ja galvas turētāja ieliktņa pārbaudes rezultātā konstatējat, ka tas ir piesārņots ar ķermeņa šķidrumiem, likvidējiet un nomainiet to.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2164,
+        "source": "IF THERE IS AN AREA OF CONCERN, ALWAYS COMPARE TO A NON-DLSR IMAGE RECONSTRUCTION.",
+        "target": "JA RODAS ŠAUBAS PAR KĀDU ATTĒLĀ ESOŠU APGABALU, VIENMĒR SALĪDZINIET TO AR ATTĒLA REKONSTRUKCIJU, KAS NAV DLSR."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2164,
+          "source": "IF THERE IS AN AREA OF CONCERN, ALWAYS COMPARE TO A NON-DLSR IMAGE RECONSTRUCTION.",
+          "target": "JA RODAS ŠAUBAS PAR KĀDU ATTĒLĀ ESOŠU APGABALU, VIENMĒR SALĪDZINIET TO AR ATTĒLA REKONSTRUKCIJU, KAS NAV DLSR.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2166,
+        "source": "IF THERE IS AN AREA CONCERN, ALWAYS COMPARE TO A NON-DLSR RECONSTRUCTION.",
+        "target": "JA RODAS ŠAUBAS PAR KĀDU ATTĒLĀ ESOŠU APGABALU, VIENMĒR SALĪDZINIET TO AR REKONSTRUKCIJU, KAS NAV DLSR."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2166,
+          "source": "IF THERE IS AN AREA CONCERN, ALWAYS COMPARE TO A NON-DLSR RECONSTRUCTION.",
+          "target": "JA RODAS ŠAUBAS PAR KĀDU ATTĒLĀ ESOŠU APGABALU, VIENMĒR SALĪDZINIET TO AR REKONSTRUKCIJU, KAS NAV DLSR.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2201,
+        "source": "Select either Add All Anatomy Recon or Add Recon (Select desired Group, ex:",
+        "target": "Atlasiet vai nu Add All Anatomy Recon (Pievienot visa ķermeņa rekonstrukciju), vai Add Recon (Select desired Group, ex G1) (Pievienot rekonstrukciju (atlasīt vēlamo grupu, piemēram:"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2201,
+          "source": "Select either Add All Anatomy Recon or Add Recon (Select desired Group, ex:",
+          "target": "Atlasiet vai nu Add All Anatomy Recon (Pievienot visa ķermeņa rekonstrukciju), vai Add Recon (Select desired Group, ex G1) (Pievienot rekonstrukciju (atlasīt vēlamo grupu, piemēram:",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bselect\\b"
+        },
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 2201,
+          "source": "Select either Add All Anatomy Recon or Add Recon (Select desired Group, ex:",
+          "target": "Atlasiet vai nu Add All Anatomy Recon (Pievienot visa ķermeņa rekonstrukciju), vai Add Recon (Select desired Group, ex G1) (Pievienot rekonstrukciju (atlasīt vēlamo grupu, piemēram:",
+          "message": "Skaitļu skaits nesakrīt: avotā 0, tulkojumā 1"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2209,
+        "source": "You can also start/queue the recon by closing the panel.",
+        "target": "Jūs varat arī palaist/ievietot rindā rekonstrukciju, aizverot paneli."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2209,
+          "element": "panel",
+          "source": "You can also start/queue the recon by closing the panel.",
+          "target": "Jūs varat arī palaist/ievietot rindā rekonstrukciju, aizverot paneli.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2240,
+        "source": "Only the maximized mode has the Tool panel at upper left window.",
+        "target": "Tikai maksimizētajā režīmā rīku panelis atrodas augšējā kreisajā logā."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2240,
+          "element": "panel",
+          "source": "Only the maximized mode has the Tool panel at upper left window.",
+          "target": "Tikai maksimizētajā režīmā rīku panelis atrodas augšējā kreisajā logā.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2332,
+        "source": "In the Waveform Filter area, select On or Off.",
+        "target": "Apgabalā Waveform Filter (Līknes filtrs) atlasiet On (Ieslēgt) vai Off (Izslēgt)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2332,
+          "source": "In the Waveform Filter area, select On or Off.",
+          "target": "Apgabalā Waveform Filter (Līknes filtrs) atlasiet On (Ieslēgt) vai Off (Izslēgt).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2341,
+        "source": "In the Pacer Detect area, select On or Off.",
+        "target": "Apgabalā Pacer Detect (Elektrokardiostimulatora noteikšana) atlasiet On (Ieslēgt) vai Off (Izslēgt)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2341,
+          "source": "In the Pacer Detect area, select On or Off.",
+          "target": "Apgabalā Pacer Detect (Elektrokardiostimulatora noteikšana) atlasiet On (Ieslēgt) vai Off (Izslēgt).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2344,
+        "source": "In the Statistics Window Length area, enter a value for seconds (0–99).",
+        "target": "Apgabalā Statistics Window Length (Statistikas loga garums) ievadiet vērtību sekundēs (0–99)."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2344,
+          "element": "Window",
+          "source": "In the Statistics Window Length area, enter a value for seconds (0–99).",
+          "target": "Apgabalā Statistics Window Length (Statistikas loga garums) ievadiet vērtību sekundēs (0–99).",
+          "message": "UI elements \"Window\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2345,
+        "source": "In the Irregular Beat Window Length area, enter a value for seconds (0–999).",
+        "target": "Apgabalā Irregular Beat Window Length (Neregulāra sitiena loga garums) ievadiet vērtību sekundēs (0–999)."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2345,
+          "element": "Window",
+          "source": "In the Irregular Beat Window Length area, enter a value for seconds (0–999).",
+          "target": "Apgabalā Irregular Beat Window Length (Neregulāra sitiena loga garums) ievadiet vērtību sekundēs (0–999).",
+          "message": "UI elements \"Window\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2349,
+        "source": "In the Cardiac Multiphase Fixed Interval Recon field, select On to activate the feature, or set to Off, the default value.",
+        "target": "Laukā Cardiac Multiphase Fixed Interval Recon (Sirds vairāku fāžu fiksēta intervāla rekonstrukcija) atlasiet On (Ieslēgts), lai aktivizētu funkciju, vai iestatiet uz Off (Izslēgts), lai izmantotu noklusējuma vērtību."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2349,
+          "source": "In the Cardiac Multiphase Fixed Interval Recon field, select On to activate the feature, or set to Off, the default value.",
+          "target": "Laukā Cardiac Multiphase Fixed Interval Recon (Sirds vairāku fāžu fiksēta intervāla rekonstrukcija) atlasiet On (Ieslēgts), lai aktivizētu funkciju, vai iestatiet uz Off (Izslēgts), lai izmantotu noklusējuma vērtību.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2351,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2351,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2372,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2372,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2378,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2378,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2385,
+        "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+        "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2385,
+          "source": "Click Save to save the new preference, or Save and Close to additionally close the System Preferences window.",
+          "target": "Noklikšķiniet uz Save (Saglabāt), lai saglabātu jauno preferenci, vai Save and Close (Saglabāt un aizvērt), lai arī aizvērtu logu System Preferences (Sistēmas preferences).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2395,
+        "source": "From the viewport control panel, click the arrow next to Export, then click the Cine icon .",
+        "target": "Skatvietu vadības panelī noklikšķiniet uz bultiņas līdzās vienumam Export (Eksportēt) un pēc tam noklikšķiniet uz ikonas Cine (Kino) ."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2395,
+          "element": "panel",
+          "source": "From the viewport control panel, click the arrow next to Export, then click the Cine icon .",
+          "target": "Skatvietu vadības panelī noklikšķiniet uz bultiņas līdzās vienumam Export (Eksportēt) un pēc tam noklikšķiniet uz ikonas Cine (Kino) .",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2402,
+        "source": "Check Play All to play all of the images in the series, or click Play Range and enter the image numbers in the From and To fields.",
+        "target": "Atzīmējiet Play All (Demonstrēt visu), lai parādītu visus sērijas attēlus, vai noklikšķiniet uz Play Range (Demonstrēt diapazonu) un laukos From (No) un To (Līdz) ievadiet attēlu numurus."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2402,
+          "source": "Check Play All to play all of the images in the series, or click Play Range and enter the image numbers in the From and To fields.",
+          "target": "Atzīmējiet Play All (Demonstrēt visu), lai parādītu visus sērijas attēlus, vai noklikšķiniet uz Play Range (Demonstrēt diapazonu) un laukos From (No) un To (Līdz) ievadiet attēlu numurus.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2434,
+        "source": "The automated SmartPhase feature is particularly helpful on coronary exams where the user might otherwise have to prescribe an earliest-to-latest multiphase reconstruction and manually search for a best phase, including irregular heart beat scenarios that utilized msec-based fixed-delay triggering.",
+        "target": "Automatizētā funkcija SmartPhase ir īpaši noderīga koronāro asinsvadu izmeklējumos, kur citādā gadījumā lietotājam būtu jānozīmē vairāku fāžu rekonstrukcija Earliest-to-Latest (No vecākās uz jaunāko) un manuāli jāmeklē vispiemērotākā fāze (tas attiecas arī uz neregulāru sirds sitienu scenārijiem, kuros tiek izmantota uz milisekundēm balstīta fiksēta aizkaves sinhronizēšana)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2434,
+          "source": "The automated SmartPhase feature is particularly helpful on coronary exams where the user might otherwise have to prescribe an earliest-to-latest multiphase reconstruction and manually search for a best phase, including irregular heart beat scenarios that utilized msec-based fixed-delay triggering.",
+          "target": "Automatizētā funkcija SmartPhase ir īpaši noderīga koronāro asinsvadu izmeklējumos, kur citādā gadījumā lietotājam būtu jānozīmē vairāku fāžu rekonstrukcija Earliest-to-Latest (No vecākās uz jaunāko) un manuāli jāmeklē vispiemērotākā fāze (tas attiecas arī uz neregulāru sirds sitienu scenārijiem, kuros tiek izmantota uz milisekundēm balstīta fiksēta aizkaves sinhronizēšana).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2460,
+        "source": "From the image monitor, in the Reconstruction and Imaging Processing area, select the secondary recon task and click Add Recon.",
+        "target": "Attēlu monitora apgabalā Reconstruction and Imaging Processing (Rekonstrukcija un attēlu apstrāde) atlasiet sekundārās rekonstrukcijas uzdevumu un noklikšķiniet uz Add Recon (Pievienot rekonstrukciju)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2460,
+          "source": "From the image monitor, in the Reconstruction and Imaging Processing area, select the secondary recon task and click Add Recon.",
+          "target": "Attēlu monitora apgabalā Reconstruction and Imaging Processing (Rekonstrukcija un attēlu apstrāde) atlasiet sekundārās rekonstrukcijas uzdevumu un noklikšķiniet uz Add Recon (Pievienot rekonstrukciju).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2482,
+        "source": "From the ECG and Gating settings collection, click the Recon mode for the phase prescription method.",
+        "target": "Iestatījumu kopā ECG and Gating (EKG un sinhronizācija) noklikšķiniet uz fāzes nozīmēšanas metodes rekonstrukcijas režīma."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2482,
+          "source": "From the ECG and Gating settings collection, click the Recon mode for the phase prescription method.",
+          "target": "Iestatījumu kopā ECG and Gating (EKG un sinhronizācija) noklikšķiniet uz fāzes nozīmēšanas metodes rekonstrukcijas režīma.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2488,
+        "source": "Center Phase (1):",
+        "target": "Center Phase (1) (Centrālā fāze (1)):"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 2488,
+          "source": "Center Phase (1):",
+          "target": "Center Phase (1) (Centrālā fāze (1)):",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2502,
+        "source": "Earliest to Latest:",
+        "target": "Earliest to Latest (No vecākās uz jaunāko):"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2502,
+          "source": "Earliest to Latest:",
+          "target": "Earliest to Latest (No vecākās uz jaunāko):",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2504,
+        "source": "Earliest to Latest (All):",
+        "target": "Earliest to Latest (All) (No vecākās uz jaunāko (viss):"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2504,
+          "source": "Earliest to Latest (All):",
+          "target": "Earliest to Latest (All) (No vecākās uz jaunāko (viss):",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2510,
+        "source": "In ECG and Gating settings, select the mode (Single Phase, Multi-phase, et cetera) and enter the desired phase(s) for reconstruction.",
+        "target": "Opcijas ECG and Gating (EKG un sinhronizācija) iestatījumos atlasiet režīmu (Single Phase (Viena fāze) un Multi-phase (Vairākas fāzes) utt.) un ievadiet rekonstrukcijai nepieciešamo(-ās) fāzi(-es)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2510,
+          "source": "In ECG and Gating settings, select the mode (Single Phase, Multi-phase, et cetera) and enter the desired phase(s) for reconstruction.",
+          "target": "Opcijas ECG and Gating (EKG un sinhronizācija) iestatījumos atlasiet režīmu (Single Phase (Viena fāze) un Multi-phase (Vairākas fāzes) utt.) un ievadiet rekonstrukcijai nepieciešamo(-ās) fāzi(-es).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2516,
+        "source": "If you are acquiring a functional imaging exam for ejection fraction and wall motion, prescribe phases from 5–95% in increments of 10% and consider reconstructing the data with a 2.5 mm thickness.",
+        "target": "Ja veicat funkcionālo attēlveidošanas izmeklējumu, lai iegūtu izstumšanas daļas un sieniņas kustību datus, nozīmējiet fāzes diapazonā no 5 līdz 95% ar 10% iedaļu, un datus ieteicams rekonstruēt ar 2,5 mm biezumu."
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 2516,
+          "source": "If you are acquiring a functional imaging exam for ejection fraction and wall motion, prescribe phases from 5–95% in increments of 10% and consider reconstructing the data with a 2.5 mm thickness.",
+          "target": "Ja veicat funkcionālo attēlveidošanas izmeklējumu, lai iegūtu izstumšanas daļas un sieniņas kustību datus, nozīmējiet fāzes diapazonā no 5 līdz 95% ar 10% iedaļu, un datus ieteicams rekonstruēt ar 2,5 mm biezumu.",
+          "message": "Skaitļu skaits nesakrīt: avotā 4, tulkojumā 5"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2518,
+        "source": "Enabling the Cardiac Multiphase Fixed Interval Recon option in the system preferences will ensure that multiphase reconstructions using Earliest to Latest or Earliest to Latest (all) recon types are integer multiples of the prescribed phase interval.",
+        "target": "Sistēmas preferenču sadaļā, iespējojot sirds vairāku fāžu fiksēta intervāla rekonstrukcijas opciju, tiek nodrošināts, ka vairāku fāžu rekonstrukcijas, kurām izmantota rekonstrukcijas veida opcija Earliest to Latest (No vecākās uz jaunāko) vai Earliest to Latest (all) (No vecākās uz jaunāko (viss)), atbilst nozīmētā fāzes intervāla vesela skaitļa daudzkārtņiem."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2518,
+          "source": "Enabling the Cardiac Multiphase Fixed Interval Recon option in the system preferences will ensure that multiphase reconstructions using Earliest to Latest or Earliest to Latest (all) recon types are integer multiples of the prescribed phase interval.",
+          "target": "Sistēmas preferenču sadaļā, iespējojot sirds vairāku fāžu fiksēta intervāla rekonstrukcijas opciju, tiek nodrošināts, ka vairāku fāžu rekonstrukcijas, kurām izmantota rekonstrukcijas veida opcija Earliest to Latest (No vecākās uz jaunāko) vai Earliest to Latest (all) (No vecākās uz jaunāko (viss)), atbilst nozīmētā fāzes intervāla vesela skaitļa daudzkārtņiem.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2520,
+        "source": "Click Apply to close the Phase Selection dialog box.",
+        "target": "Noklikšķiniet uz Apply (Lietot), lai aizvērtu dialoglodziņu Phase Selection (Fāžu atlase)."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2520,
+          "element": "dialog",
+          "source": "Click Apply to close the Phase Selection dialog box.",
+          "target": "Noklikšķiniet uz Apply (Lietot), lai aizvērtu dialoglodziņu Phase Selection (Fāžu atlase).",
+          "message": "UI elements \"dialog\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2526,
+        "source": "From the image monitor, in the Reconstruction and Image Processing area, you can edit, add, or delete Secondary Recons.",
+        "target": "Attēlu monitora apgabalā Reconstruction and Image Processing (Rekonstrukcija un attēlu apstrāde) varat rediģēt, pievienot vai dzēst sekundārās rekonstrukcijas versijas."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2526,
+          "source": "From the image monitor, in the Reconstruction and Image Processing area, you can edit, add, or delete Secondary Recons.",
+          "target": "Attēlu monitora apgabalā Reconstruction and Image Processing (Rekonstrukcija un attēlu apstrāde) varat rediģēt, pievienot vai dzēst sekundārās rekonstrukcijas versijas.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2527,
+        "source": "Left-clicking on an existing recon task or adding a new one opens the editing panel to the right of the task list.",
+        "target": "Noklikšķinot ar peles kreiso pogu uz esoša rekonstrukcijas uzdevuma vai pievienojot jaunu, uzdevumu saraksta labajā pusē tiek atvērts rediģēšanas panelis."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2527,
+          "element": "panel",
+          "source": "Left-clicking on an existing recon task or adding a new one opens the editing panel to the right of the task list.",
+          "target": "Noklikšķinot ar peles kreiso pogu uz esoša rekonstrukcijas uzdevuma vai pievienojot jaunu, uzdevumu saraksta labajā pusē tiek atvērts rediģēšanas panelis.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2528,
+        "source": "Any needed recon setting changes can be made within the editing panel.",
+        "target": "Rediģēšanas panelī var veikt visas nepieciešamās rekonstrukcijas iestatījumu izmaiņas."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2528,
+          "element": "panel",
+          "source": "Any needed recon setting changes can be made within the editing panel.",
+          "target": "Rediģēšanas panelī var veikt visas nepieciešamās rekonstrukcijas iestatījumu izmaiņas.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2538,
+        "source": "Center Phase (1)",
+        "target": "Center Phase (1) (Centrālā fāze (1))"
+      },
+      "issues": [
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 2538,
+          "source": "Center Phase (1)",
+          "target": "Center Phase (1) (Centrālā fāze (1))",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2544,
+        "source": "Earliest to Latest",
+        "target": "Earliest to Latest (No vecākās uz jaunāko)"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2544,
+          "source": "Earliest to Latest",
+          "target": "Earliest to Latest (No vecākās uz jaunāko)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2547,
+        "source": "Earliest to Latest (All)",
+        "target": "Earliest to Latest (All) (No vecākās uz jaunāko (viss))"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2547,
+          "source": "Earliest to Latest (All)",
+          "target": "Earliest to Latest (All) (No vecākās uz jaunāko (viss))",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2580,
+        "source": "GSI can provide accurate adjunct information that may predict UA and from non-UA stone composition in-vitro and in-vivo.",
+        "target": "GSI spēj nodrošināt precīzu papildinformāciju, kas palīdz identificēt urīnskābes un urīnskābi nesaturošus akmeņus in vitro un in vivo izmeklējumu laikā."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2580,
+          "source": "GSI can provide accurate adjunct information that may predict UA and from non-UA stone composition in-vitro and in-vivo.",
+          "target": "GSI spēj nodrošināt precīzu papildinformāciju, kas palīdz identificēt urīnskābes un urīnskābi nesaturošus akmeņus in vitro un in vivo izmeklējumu laikā.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bin\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2595,
+        "source": "The image interval is greater than or equal to 0.3125mm.",
+        "target": "Attēlu intervāls ir lielāks par 0,3125 mm vai vienāds ar to."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2595,
+          "source": "The image interval is greater than or equal to 0.3125mm.",
+          "target": "Attēlu intervāls ir lielāks par 0,3125 mm vai vienāds ar to.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        },
+        {
+          "type": "MISSING_NUMBERS",
+          "segment_id": 2595,
+          "source": "The image interval is greater than or equal to 0.3125mm.",
+          "target": "Attēlu intervāls ir lielāks par 0,3125 mm vai vienāds ar to.",
+          "message": "Skaitļu skaits nesakrīt: avotā 1, tulkojumā 2"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2648,
+        "source": "Fuses blown within 36 hours of being replaced may indicate malfunctioning electrical circuits within the system.",
+        "target": "Drošinātāju pārdegšana 36 stundu laikā no to uzstādīšanas brīža var norādīt uz elektriskās ķēdes nepareizu darbību sistēmā."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2648,
+          "source": "Fuses blown within 36 hours of being replaced may indicate malfunctioning electrical circuits within the system.",
+          "target": "Drošinātāju pārdegšana 36 stundu laikā no to uzstādīšanas brīža var norādīt uz elektriskās ķēdes nepareizu darbību sistēmā.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2697,
+        "source": "gantry control panel backlighting, service panel 120VAC LED will be lit and primary gantry display will display the table vertical position.",
+        "target": "gentrija vadības panelī deg pretgaisma, deg servisa paneļa 120 V AC LED, un primārais gentrija displejs rāda galda vertikālo pozīciju."
+      },
+      "issues": [
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2697,
+          "element": "panel",
+          "source": "gantry control panel backlighting, service panel 120VAC LED will be lit and primary gantry display will display the table vertical position.",
+          "target": "gentrija vadības panelī deg pretgaisma, deg servisa paneļa 120 V AC LED, un primārais gentrija displejs rāda galda vertikālo pozīciju.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        },
+        {
+          "type": "UI_FORMAT",
+          "segment_id": 2697,
+          "element": "panel",
+          "source": "gantry control panel backlighting, service panel 120VAC LED will be lit and primary gantry display will display the table vertical position.",
+          "target": "gentrija vadības panelī deg pretgaisma, deg servisa paneļa 120 V AC LED, un primārais gentrija displejs rāda galda vertikālo pozīciju.",
+          "message": "UI elements \"panel\" nav pareizi formatēts kā EN (Tulkojums) vai objekta tips nav pirms nosaukuma"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2746,
+        "source": "Move To Scan is typically not required since the last scan was at the baseline location.",
+        "target": "Parasti opciju Move To Scan (Pāriet uz skenēšanu) nav jāizmanto, jo pēdējais skens ir uzņemts bāzlīnijas vietā."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2746,
+          "source": "Move To Scan is typically not required since the last scan was at the baseline location.",
+          "target": "Parasti opciju Move To Scan (Pāriet uz skenēšanu) nav jāizmanto, jo pēdējais skens ir uzņemts bāzlīnijas vietā.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bto\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2783,
+        "source": "Flip and Rotate",
+        "target": "Flip and Rotate (Apvēršana un pagriešana)"
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2783,
+          "source": "Flip and Rotate",
+          "target": "Flip and Rotate (Apvēršana un pagriešana)",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2834,
+        "source": "Graphic Rx for secondary reconstructions will indicate if Copy Forward is “On” with a salmon colored handle on the graphic object.",
+        "target": "Grafiskais Rx sekundārās rekonstrukcijas versijām norāda ar laša krāsas turi uz grafiskā objekta vai funkcija Copy Forward (Kopēt uz nākamo) ir pārslēgta uz On (Ieslēgts)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2834,
+          "source": "Graphic Rx for secondary reconstructions will indicate if Copy Forward is “On” with a salmon colored handle on the graphic object.",
+          "target": "Grafiskais Rx sekundārās rekonstrukcijas versijām norāda ar laša krāsas turi uz grafiskā objekta vai funkcija Copy Forward (Kopēt uz nākamo) ir pārslēgta uz On (Ieslēgts).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2837,
+        "source": "Graphic Rx for secondary reconstructions will indicate if Copy Forward is “On” with a salmon colored handle on the graphic object.",
+        "target": "Grafiskais Rx sekundārās rekonstrukcijas versijām norāda ar laša krāsas turi uz grafiskā objekta vai funkcija Copy Forward (Kopēt uz nākamo) ir pārslēgta uz On (Ieslēgts)."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2837,
+          "source": "Graphic Rx for secondary reconstructions will indicate if Copy Forward is “On” with a salmon colored handle on the graphic object.",
+          "target": "Grafiskais Rx sekundārās rekonstrukcijas versijām norāda ar laša krāsas turi uz grafiskā objekta vai funkcija Copy Forward (Kopēt uz nākamo) ir pārslēgta uz On (Ieslēgts).",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\bon\\b"
+        }
+      ]
+    },
+    {
+      "segment": {
+        "id": 2844,
+        "source": "To add a secondary reconstruction, from the image monitor, in the Reconstruction and Image Processing area, select Duplicate Recon or Add Recon for a particular series.",
+        "target": "Lai pievienotu sekundāro rekonstrukciju, attēlu monitora apgabalā Reconstruction and Image Processing (Rekonstrukcija un attēlu apstrāde) atlasiet Duplicate Recon (Dublēt rekonstrukciju) vai Add Recon (Pievienot rekonstrukciju) konkrētai sērijai."
+      },
+      "issues": [
+        {
+          "type": "UNTRANSLATED",
+          "segment_id": 2844,
+          "source": "To add a secondary reconstruction, from the image monitor, in the Reconstruction and Image Processing area, select Duplicate Recon or Add Recon for a particular series.",
+          "target": "Lai pievienotu sekundāro rekonstrukciju, attēlu monitora apgabalā Reconstruction and Image Processing (Rekonstrukcija un attēlu apstrāde) atlasiet Duplicate Recon (Dublēt rekonstrukciju) vai Add Recon (Pievienot rekonstrukciju) konkrētai sērijai.",
+          "message": "Tulkojumā atrasti neiztulkoti angļu vārdi: \\band\\b"
+        }
+      ]
+    }
+  ],
+  "term_issues": [
+    {
+      "type": "INCONSISTENT_TERM",
+      "term": "mode",
+      "translations": [
+        [
+          "režīms",
+          32
+        ],
+        [
+          "režīmu",
+          14
+        ],
+        [
+          "režīma",
+          5
+        ],
+        [
+          "režīmā",
+          4
+        ],
+        [
+          "režīmi",
+          2
+        ],
+        [
+          "režīmam",
+          1
+        ]
+      ],
+      "message": "Termins \"mode\" tulkots nekonsekventi: [('režīms', 32), ('režīmu', 14), ('režīma', 5), ('režīmā', 4), ('režīmi', 2), ('režīmam', 1)]"
+    },
+    {
+      "type": "INCONSISTENT_TERM",
+      "term": "series",
+      "translations": [
+        [
+          "sērijas",
+          34
+        ],
+        [
+          "sēriju",
+          18
+        ],
+        [
+          "sērijā",
+          8
+        ],
+        [
+          "sērijai",
+          6
+        ],
+        [
+          "sērija",
+          5
+        ],
+        [
+          "sērijām",
+          1
+        ]
+      ],
+      "message": "Termins \"series\" tulkots nekonsekventi: [('sērijas', 34), ('sēriju', 18), ('sērijā', 8), ('sērijai', 6), ('sērija', 5), ('sērijām', 1)]"
+    },
+    {
+      "type": "INCONSISTENT_TERM",
+      "term": "slice",
+      "translations": [
+        [
+          "slāņu",
+          7
+        ],
+        [
+          "slāņa",
+          7
+        ],
+        [
+          "slāņi",
+          3
+        ],
+        [
+          "slāņiem",
+          3
+        ]
+      ],
+      "message": "Termins \"slice\" tulkots nekonsekventi: [('slāņu', 7), ('slāņa', 7), ('slāņi', 3), ('slāņiem', 3)]"
+    },
+    {
+      "type": "INCONSISTENT_TERM",
+      "term": "thickness",
+      "translations": [
+        [
+          "biezums",
+          12
+        ],
+        [
+          "biezumam",
+          4
+        ],
+        [
+          "biezumu",
+          4
+        ],
+        [
+          "biezuma",
+          2
+        ]
+      ],
+      "message": "Termins \"thickness\" tulkots nekonsekventi: [('biezums', 12), ('biezumam', 4), ('biezumu', 4), ('biezuma', 2)]"
+    },
+    {
+      "type": "INCONSISTENT_TERM",
+      "term": "reconstruction",
+      "translations": [
+        [
+          "rekonstrukcijas",
+          39
+        ],
+        [
+          "rekonstrukcija",
+          19
+        ],
+        [
+          "rekonstrukciju",
+          13
+        ],
+        [
+          "rekonstrukcijai",
+          4
+        ],
+        [
+          "rekonstrukcijām",
+          1
+        ],
+        [
+          "rekonstrukcijā",
+          1
+        ]
+      ],
+      "message": "Termins \"reconstruction\" tulkots nekonsekventi: [('rekonstrukcijas', 39), ('rekonstrukcija', 19), ('rekonstrukciju', 13), ('rekonstrukcijai', 4), ('rekonstrukcijām', 1), ('rekonstrukcijā', 1)]"
+    },
+    {
+      "type": "INCONSISTENT_TERM",
+      "term": "image",
+      "translations": [
+        [
+          "attēlu",
+          61
+        ],
+        [
+          "attēla",
+          30
+        ],
+        [
+          "attēls",
+          7
+        ],
+        [
+          "attēlus",
+          6
+        ],
+        [
+          "attēli",
+          5
+        ],
+        [
+          "attēliem",
+          4
+        ],
+        [
+          "attēlā",
+          4
+        ],
+        [
+          "attēlos",
+          2
+        ],
+        [
+          "attēlam",
+          2
+        ],
+        [
+          "attēlveidošanai",
+          1
+        ]
+      ],
+      "message": "Termins \"image\" tulkots nekonsekventi: [('attēlu', 61), ('attēla', 30), ('attēls', 7), ('attēlus', 6), ('attēli', 5), ('attēliem', 4), ('attēlā', 4), ('attēlos', 2), ('attēlam', 2), ('attēlveidošanai', 1)]"
+    },
+    {
+      "type": "INCONSISTENT_TERM",
+      "term": "scan",
+      "translations": [
+        [
+          "skenēšanas",
+          184
+        ],
+        [
+          "skenēšanu",
+          33
+        ],
+        [
+          "skenēšanai",
+          6
+        ],
+        [
+          "skenēšana",
+          5
+        ],
+        [
+          "izmeklējumam",
+          1
+        ],
+        [
+          "izmeklējums",
+          1
+        ],
+        [
+          "izmeklējumu",
+          1
+        ]
+      ],
+      "message": "Termins \"scan\" tulkots nekonsekventi: [('skenēšanas', 184), ('skenēšanu', 33), ('skenēšanai', 6), ('skenēšana', 5), ('izmeklējumam', 1), ('izmeklējums', 1), ('izmeklējumu', 1)]"
+    }
+  ],
+  "total_segments": 2662,
+  "problematic_segments": 157
+}

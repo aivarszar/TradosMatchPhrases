@@ -1,0 +1,74 @@
+[
+  {
+    "segment_id": 1,
+    "original_source": "To adjust the Recon Mode, select Full or Plus.",
+    "original_target": "Lai pielāgotu rekonstrukcijas režīmu, atlasiet Full vai Plus.",
+    "corrected_target": "Lai pielāgotu rekonstrukcijas režīmu, atlasiet Full (Pilnais) vai Plus (Papildu).",
+    "issue_type": "UI_NO_TRANSLATION",
+    "explanation": "Opciju nosaukumi \"Full\" un \"Plus\" nav formatēti ar tulkojumu iekavās. Atbilstoši labās prakses principiem, UI elementi jāformatē kā EN (Tulkojums), lai lietotājs varētu identificēt gan angļu, gan latviešu nosaukumus.",
+    "severity": "MEDIUM"
+  },
+  {
+    "segment_id": 372,
+    "original_source": "To adjust Start and End locations, Plus (+) can be used for S values and Minus (-) for I values when using the 10-digit key pad.",
+    "original_target": "Lai pielāgotu vietas Start (Sākums) un End (Beigas), izmantojot desmit taustiņu tastatūru, pluszīmi (+) var izmantot S vērtību ievadīšanai un mīnusa zīmi (-) — I vērtību ievadīšanai.",
+    "corrected_target": "Lai pielāgotu vietas Start (Sākums) un End (Beigas), izmantojot 10 taustiņu tastatūru, pluszīmi (+) var izmantot S vērtību ievadīšanai un mīnusa zīmi (-) — I vērtību ievadīšanai.",
+    "issue_type": "NUMBER_MISMATCH",
+    "explanation": "Skaitlis \"10\" ir uzrakstīts vārdos \"desmit\", bet tehniskajos dokumentos, jo īpaši, ja avottekstā ir cipari, tulkojumā arī jālieto cipari, lai saglabātu precizitāti un konsekvenci. \"10-digit key pad\" → \"10 taustiņu tastatūra\".",
+    "severity": "LOW"
+  },
+  {
+    "segment_id": 561,
+    "original_source": "Simple Settings View is not available for Scout Settings, Smart Prep Series or Cardiac Scan Modes.",
+    "original_target": "Vienkāršo iestatījumu skats nav pieejams topogrammas iestatījumiem režīmiem, Smart Prep Series vai Cardiac Scan.",
+    "corrected_target": "Vienkāršo iestatījumu skats nav pieejams topogrammas iestatījumiem, Smart Prep Series (Sagatavošanās sērija) režīmiem vai Cardiac Scan (Sirds skenēšana) režīmiem.",
+    "issue_type": "UI_NO_TRANSLATION",
+    "explanation": "Režīmu nosaukumi \"Smart Prep Series\" un \"Cardiac Scan\" nav formatēti ar tulkojumu iekavās. Papildus, teikumā ir kļūda: \"topogrammas iestatījumiem režīmiem\" - liekvārdība, vajadzētu būt \"topogrammas iestatījumiem\". Labojums paredz pievienot tulkojumus iekavās un precizēt teikuma struktūru.",
+    "severity": "MEDIUM"
+  },
+  {
+    "segment_id": 859,
+    "original_source": "The RAPP panel will be displayed after patient selection and protocol selection.",
+    "original_target": "RAPP panelis tiks parādīts pēc pacienta atlases un protokola izvēles.",
+    "corrected_target": "Panelis RAPP (Radiology Approved Prescription Panel) tiks parādīts pēc pacienta atlases un protokola izvēles.",
+    "issue_type": "UI_NO_TRANSLATION",
+    "explanation": "RAPP ir akronīms bez skaidrojuma. Pēc UI elementu formatēšanas vadlīnijām, objekta tips \"panelis\" jānorāda pirms nosaukuma. Papildus, pievienots pilns akronīma atšifrējums, lai lietotājam būtu skaidrs, kas ir RAPP. Ja pilnais nosaukums nav zināms, var atstāt bez atšifrējuma, bet ar latviešu paskaidrojumu.",
+    "severity": "LOW"
+  },
+  {
+    "segment_id": 1000,
+    "original_source": "The original language of this document is English, Direction Number 6789320-1EN, Revision 1, and is applicable to software 25MW27.xx for .",
+    "original_target": "Šī dokumenta oriģinālversija ir angļu valodā, izdevuma Nr.: 6789320-1EN, pārsk. izd. Nr. 1. Un dokuments attiecas uz  1.0 programmatūras versiju 23MW17.xx.",
+    "corrected_target": "Šī dokumenta oriģinālversija ir angļu valodā, izdevuma Nr.: 6789320-1EN, pārsk. izd. Nr. 1. Un dokuments attiecas uz programmatūras versiju 25MW27.xx priekš .",
+    "issue_type": "CONTENT_ERROR",
+    "explanation": "Būtiska kļūda - programmatūras versija avottekstā ir \"25MW27.xx\", bet tulkojumā ir \"23MW17.xx\". Tas ir fakta kļūda, kas var maldināt lietotāju. Papildus, tulkojumā ir papildus teksts \"1.0\", kas nav avottekstā. Avotteksts arī šķiet nepilnīgs (beidzas ar \"for .\"), kas norāda uz iespējamu avotteksta problēmu.",
+    "severity": "HIGH"
+  },
+  {
+    "segment_id": 2186,
+    "original_source": "Select the pending retro recon jobs that need to be prioritized and hit the Prioritize Retro button.",
+    "original_target": "Atlasiet gaidāmos retrorekonstrukcijas darbus, kuriem jāpiešķir prioritāte, un nospiediet pogu Prioritize Retro.",
+    "corrected_target": "Atlasiet gaidāmos retrorekonstrukcijas darbus, kuriem jāpiešķir prioritāte, un nospiediet pogu Prioritize Retro (Piešķirt prioritāti retro).",
+    "issue_type": "UI_NO_TRANSLATION",
+    "explanation": "Pogas nosaukums \"Prioritize Retro\" nav formatēts ar tulkojumu iekavās. Labojums: pievienots tulkojums iekavās. Papildus, UI objekta tips \"pogu\" pareizi novietots pirms nosaukuma.",
+    "severity": "MEDIUM"
+  },
+  {
+    "segment_id": 2190,
+    "original_source": "If Prioritize Retro button is unavailable the user may have:",
+    "original_target": "Ja poga Prioritize Retro nav pieejama, lietotājam var būt:",
+    "corrected_target": "Ja poga Prioritize Retro (Piešķirt prioritāti retro) nav pieejama, lietotājam var būt:",
+    "issue_type": "UI_NO_TRANSLATION",
+    "explanation": "Pogas nosaukums \"Prioritize Retro\" nav formatēts ar tulkojumu iekavās. Konsekvences labad, jāizmanto tas pats tulkojums kā segmentā #2186. UI objekta tips \"poga\" jau ir pareizi novietots pirms nosaukuma.",
+    "severity": "MEDIUM"
+  },
+  {
+    "segment_id": 2770,
+    "original_source": "Recon Mode Plus",
+    "original_target": "Recon Mode Plus (Rekonstrukcijas režīms Plus)",
+    "corrected_target": "Recon Mode Plus (Rekonstrukcijas režīms Plus) vai Rekonstrukcijas režīms Plus",
+    "issue_type": "CONSISTENCY",
+    "explanation": "Tulkojums ir daļēji pareizs, bet rodas jautājums par konsekvenci - vai \"Plus\" vajadzētu arī tulkot kā \"Papildu\"? Pārbaudot citus segmentus (piem., #1), \"Plus\" ir režīma nosaukuma daļa. Ieteicams: ja \"Plus\" ir īpašvārds (režīma nosaukums), tad var atstāt \"Plus\", bet ja tas ir aprakstošs vārds, tad \"Papildu\". Šajā kontekstā \"Plus\" šķiet kā režīma nosaukums, tāpēc pašreizējais tulkojums var būt pieņemams, bet jāpārbauda konsekvence ar citiem \"Plus\" lietojumiem.",
+    "severity": "LOW"
+  }
+]

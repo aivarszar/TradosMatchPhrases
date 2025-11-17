@@ -1,0 +1,592 @@
+[
+  {
+    "segment": {
+      "id": 1,
+      "source": "To adjust the Recon Mode, select Full or Plus.",
+      "target": "Lai pielāgotu rekonstrukcijas režīmu, atlasiet Full vai Plus."
+    },
+    "issues": [
+      {
+        "type": "OPTION_NO_FORMAT",
+        "severity": "MEDIUM",
+        "message": "Opcija \"Full\" nav formatēta kā EN (Tulkojums)",
+        "option": "Full"
+      },
+      {
+        "type": "OPTION_NO_FORMAT",
+        "severity": "MEDIUM",
+        "message": "Opcija \"Plus\" nav formatēta kā EN (Tulkojums)",
+        "option": "Plus"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 134,
+      "source": "4 Row Interleaved provides a 40% mAs reduction, is 1.5 to 3 times faster than single slice helical and has minimal helical artifacts, but interleaved pitch 0.5:1 provides only one third of the coverage compared to interspaced mode.",
+      "target": "Režīms 4 Row Interleaved (4 rindu starpslāņa) nodrošina 40 % mAs samazinājumu un darbojas no 1,5 līdz 3 reizēm ātrāk nekā viena slāņa spirālveida režīms, tam ir minimāls spirālveida artefaktu daudzums, bet 0,5:1 starpslāņu solis salīdzinājumā ar starptelpas režīmu nodrošina tikai trešdaļu no pārklājuma."
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['4', '40', '1.5', '3', '0.5', '1'], LV=['4', '4', '40', '1,5', '3', '0,5', '1']",
+        "src_numbers": [
+          "4",
+          "40",
+          "1.5",
+          "3",
+          "0.5",
+          "1"
+        ],
+        "tgt_numbers": [
+          "4",
+          "4",
+          "40",
+          "1,5",
+          "3",
+          "0,5",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 135,
+      "source": "4 Row Interspaced provides data acquisition 2 to 6 times faster than single slice helical, but requires more interpolation, has more helical artifacts, and only a 20% mAs reduction.",
+      "target": "Režīms 4 Row Interspaced (4 rindu starptelpas) nodrošina no 2 līdz 6 reizēm ātrāku datu ieguvi nekā viena slāņa spirālveida režīms, bet šim režīmam ir lielāka interpolācija, vairāk spirālveida artefaktu un tikai 20 % mAs samazinājums."
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['4', '2', '6', '20'], LV=['4', '4', '2', '6', '20']",
+        "src_numbers": [
+          "4",
+          "2",
+          "6",
+          "20"
+        ],
+        "tgt_numbers": [
+          "4",
+          "4",
+          "2",
+          "6",
+          "20"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 372,
+      "source": "To adjust Start and End locations, Plus (+) can be used for S values and Minus (-) for I values when using the 10-digit key pad.",
+      "target": "Lai pielāgotu vietas Start (Sākums) un End (Beigas), izmantojot desmit taustiņu tastatūru, pluszīmi (+) var izmantot S vērtību ievadīšanai un mīnusa zīmi (-) — I vērtību ievadīšanai."
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['10'], LV=[]",
+        "src_numbers": [
+          "10"
+        ],
+        "tgt_numbers": []
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 561,
+      "source": "Simple Settings View is not available for Scout Settings, Smart Prep Series or Cardiac Scan Modes.",
+      "target": "Vienkāršo iestatījumu skats nav pieejams topogrammas iestatījumiem režīmiem, Smart Prep Series vai Cardiac Scan."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Cardiac Scan\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "Cardiac Scan",
+        "ui_type": "mode"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 792,
+      "source": "Acquisition Window and Heart Rate widget",
+      "target": "Logrīks Acquisition Window and Heart Rate (Ieguves logs un sirdsdarbības frekvence)"
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Acquisition\" (window) nav pievienots tulkojums iekavās",
+        "ui_name": "Acquisition",
+        "ui_type": "window"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 859,
+      "source": "The RAPP panel will be displayed after patient selection and protocol selection.",
+      "target": "RAPP panelis tiks parādīts pēc pacienta atlases un protokola izvēles."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"RAPP\" (panel) nav pievienots tulkojums iekavās",
+        "ui_name": "RAPP",
+        "ui_type": "panel"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 868,
+      "source": "Auto table motion",
+      "target": "Automatizēta galda kustība"
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Auto\" (tab) nav pievienots tulkojums iekavās",
+        "ui_name": "Auto",
+        "ui_type": "tab"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1000,
+      "source": "The original language of this document is English, Direction Number 6789320-1EN, Revision 1, and is applicable to software 25MW27.xx for .",
+      "target": "Šī dokumenta oriģinālversija ir angļu valodā, izdevuma Nr.: 6789320-1EN, pārsk. izd. Nr. 1. Un dokuments attiecas uz  1.0 programmatūras versiju 23MW17.xx."
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['6789320', '1', '1', '25', '27.'], LV=['6789320', '1', '1.', '1.0', '23', '17.']",
+        "src_numbers": [
+          "6789320",
+          "1",
+          "1",
+          "25",
+          "27."
+        ],
+        "tgt_numbers": [
+          "6789320",
+          "1",
+          "1.",
+          "1.0",
+          "23",
+          "17."
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1027,
+      "source": "If this occurs, use Internal Landmark or External Landmark button to position patient manually.",
+      "target": "Šādā gadījumā, lai manuāli novietotu pacientu, izmantojiet pogu “Internal Landmark” (Iekšējais orientieris) vai “External Landmark” (Ārējais orientieris)."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"External Landmark\" (button) nav pievienots tulkojums iekavās",
+        "ui_name": "External Landmark",
+        "ui_type": "button"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1228,
+      "source": "Use Energy Saving Mode to save energy consumption during non-operational times (overnights, weekends or holidays).",
+      "target": "Izmantojiet Energy Saving Mode (Enerģijas taupīšanas režīmu), lai samazinātu enerģijas patēriņu, kad iekārta netiek izmantota (nakts laikā, brīvdienās vai svētku dienās)."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Energy Saving\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "Energy Saving",
+        "ui_type": "mode"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1253,
+      "source": "From the Mode menu, click Power Management, then select Restart, Sleep, Power Down or Energy Saving Mode.",
+      "target": "Izvēlnē Mode (Režīms) noklikšķiniet uz Power Management (Elektroapgādes pārvaldība), pēc tam atlasiet Restart (Restartēt), Sleep (Miegs), Power Down (Izslēgšana) vai Energy Saving Mode (Enerģijas taupīšanas režīms)."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Energy Saving\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "Energy Saving",
+        "ui_type": "mode"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1356,
+      "source": "70 kV Scan Mode",
+      "target": "70 kV Scan Mode (70 kV skenēšanas režīms)"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['70'], LV=['70', '70']",
+        "src_numbers": [
+          "70"
+        ],
+        "tgt_numbers": [
+          "70",
+          "70"
+        ]
+      },
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"kV Scan\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "kV Scan",
+        "ui_type": "mode"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1361,
+      "source": "Cardiac Scan Modes",
+      "target": "Cardiac Scan Modes (Sirds skenēšanas režīmi)"
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Cardiac Scan\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "Cardiac Scan",
+        "ui_type": "mode"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1386,
+      "source": "0.28 Sec Rotation",
+      "target": "0.28 Sec Rotation (0,28 s rotācija)"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['0.28'], LV=['0.28', '0,28']",
+        "src_numbers": [
+          "0.28"
+        ],
+        "tgt_numbers": [
+          "0.28",
+          "0,28"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1388,
+      "source": "0.23 Sec Rotation",
+      "target": "0.23 Sec Rotation (0,23 s rotācija)"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['0.23'], LV=['0.23', '0,23']",
+        "src_numbers": [
+          "0.23"
+        ],
+        "tgt_numbers": [
+          "0.23",
+          "0,23"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1390,
+      "source": "64 Slice",
+      "target": "64 Slice (64 slāņi)"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['64'], LV=['64', '64']",
+        "src_numbers": [
+          "64"
+        ],
+        "tgt_numbers": [
+          "64",
+          "64"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1392,
+      "source": "128 Slice",
+      "target": "128 Slice (128 slāņi)"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['128'], LV=['128', '128']",
+        "src_numbers": [
+          "128"
+        ],
+        "tgt_numbers": [
+          "128",
+          "128"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1394,
+      "source": "256 Slice",
+      "target": "256 Slice (256 slāņi)"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['256'], LV=['256', '256']",
+        "src_numbers": [
+          "256"
+        ],
+        "tgt_numbers": [
+          "256",
+          "256"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1410,
+      "source": "3D Dose Modulation",
+      "target": "3D Dose Modulation (3D devas modulācija)"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['3'], LV=['3', '3']",
+        "src_numbers": [
+          "3"
+        ],
+        "tgt_numbers": [
+          "3",
+          "3"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1549,
+      "source": "The maximum AV value for CTDIvol is 2,000 mGy.",
+      "target": "CTDIvol maksimālā trauksmes vērtība ir 2000 mGy."
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['2', '000'], LV=['2000']",
+        "src_numbers": [
+          "2",
+          "000"
+        ],
+        "tgt_numbers": [
+          "2000"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1551,
+      "source": "The system default is AV checking by CTDIvolOn with a value of 1,000 mGy and/or DLPOff with a value of 0 mGy-cm.",
+      "target": "Sistēmas noklusējuma iestatījums opcijai AV checking (Trauksmes vērtības pārbaude) ir funkcija CTDIvol stāvoklī On (Ieslēgts) ar vērtību 1000 mGy un/vai DLP stāvoklī Off (Izslēgts) ar vērtību 0 mGy-cm."
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['1', '000', '0'], LV=['1000', '0']",
+        "src_numbers": [
+          "1",
+          "000",
+          "0"
+        ],
+        "tgt_numbers": [
+          "1000",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 1681,
+      "source": "From the System Preferences window, click the Energy Saving Mode tab.",
+      "target": "Logā System Preferences (Sistēmas preferences) noklikšķiniet uz cilnes Energy Saving Mode (Enerģijas taupīšans režīms)."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Energy Saving\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "Energy Saving",
+        "ui_type": "mode"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 2186,
+      "source": "Select the pending retro recon jobs that need to be prioritized and hit the Prioritize Retro button.",
+      "target": "Atlasiet gaidāmos retrorekonstrukcijas darbus, kuriem jāpiešķir prioritāte, un nospiediet pogu Prioritize Retro."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Prioritize Retro\" (button) nav pievienots tulkojums iekavās",
+        "ui_name": "Prioritize Retro",
+        "ui_type": "button"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 2190,
+      "source": "If Prioritize Retro button is unavailable the user may have:",
+      "target": "Ja poga Prioritize Retro nav pieejama, lietotājam var būt:"
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Prioritize Retro\" (button) nav pievienots tulkojums iekavās",
+        "ui_name": "Prioritize Retro",
+        "ui_type": "button"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 2488,
+      "source": "Center Phase (1):",
+      "target": "Center Phase (1) (Centrālā fāze (1)):"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['1'], LV=['1', '1']",
+        "src_numbers": [
+          "1"
+        ],
+        "tgt_numbers": [
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 2538,
+      "source": "Center Phase (1)",
+      "target": "Center Phase (1) (Centrālā fāze (1))"
+    },
+    "issues": [
+      {
+        "type": "NUMBER_MISMATCH",
+        "severity": "MEDIUM",
+        "message": "Skaitļu skaits atšķiras: EN=['1'], LV=['1', '1']",
+        "src_numbers": [
+          "1"
+        ],
+        "tgt_numbers": [
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 2616,
+      "source": "When the GSI mA mode is GSI Assist and GSI Assist Link is turned On, the recon settings will be those defined for the GSI Profile mapped to the Clinical Category selected in the Patient Collection and Clinical Identifier selected in Anatomy Collection.",
+      "target": "Kad tiek izmantots GSI mA režīms GSI Assist (GSI palīgs) un opcija GSI Assist Link (GSI palīga saite) ir ieslēgta, tiek izmantoti tā GSI profila rekonstrukcijas iestatījumi, kas piesaistīts pacienta kopā izvēlētajai klīniskajai kategorijai un anatomijas kopā izvēlētajam klīniskajam identifikatoram."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"GSI mA\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "GSI mA",
+        "ui_type": "mode"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 2621,
+      "source": "When the GSI mA mode is GSI Manual and GSI Assist Link is turned On, recon settings are applied based on Clinical Category and Clinical Identifier selected in Anatomy Selection in secondary recon settings.",
+      "target": "Kad tiek izmantots GSI mA režīms GSI Manual (Manuāls GSI) un opcija GSI Assist Link (GSI palīga saite) ir ieslēgta, rekonstrukcijas iestatījumi tiek piemēroti, vadoties pēc klīniskās kategorijas un klīniskā identifikatora, kas atlasīti kopā Anatomy Selection (Ķermeņa daļu atlase) sekundāro rekonstrukcijas iestatījumu sadaļā."
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"GSI mA\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "GSI mA",
+        "ui_type": "mode"
+      }
+    ]
+  },
+  {
+    "segment": {
+      "id": 2770,
+      "source": "Recon Mode Plus",
+      "target": "Recon Mode Plus (Rekonstrukcijas režīms Plus)"
+    },
+    "issues": [
+      {
+        "type": "UI_NO_TRANSLATION",
+        "severity": "MEDIUM",
+        "message": "UI elements \"Recon\" (mode) nav pievienots tulkojums iekavās",
+        "ui_name": "Recon",
+        "ui_type": "mode"
+      }
+    ]
+  }
+]
